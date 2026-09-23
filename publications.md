@@ -37,5 +37,3 @@ Names in **bold** are mine; the list is also available on
     <p class="pub-links"><a href="https://doi.org/10.21415/PJVS-9X49" rel="noopener">doi:10.21415/PJVS-9X49</a></p>
   </li>
 </ul>
-
-<p class="foot-meta">Manuscripts currently under peer review are not listed here.</p>

@@ -6,9 +6,8 @@ permalink: /projects/
 description: Research programs and patents of Byounghwa Lee at ETRI and Samsung Research.
 ---
 
-Each entry describes my own role and technical contribution. Programs are run by
-teams and institutions; budgets, internal project numbers and institutional
-figures are deliberately left out.
+Each entry describes my own role and technical contribution within a programme
+run by teams and institutions.
 
 ## Research programs
 
@@ -35,9 +34,7 @@ figures are deliberately left out.
 
 ## Patents
 
-Invention families in which I am the first inventor. Status is as confirmed in
-September 2026 against filing and registration documents; public patent
-databases lag official registers, so the numbers below are the verified ones.
+Invention families in which I am the first inventor, as of September 2026.
 
 {% for pt in site.data.patents %}
 <div class="card">
@@ -57,6 +54,5 @@ databases lag official registers, so the numbers below are the verified ones.
 {% endfor %}
 
 <p class="foot-meta">
-  I am also a co-inventor on further filings where I am not the first inventor;
-  those are not counted in the families above.
+  I am also a co-inventor on further filings led by others.
 </p>
