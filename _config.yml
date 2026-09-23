@@ -1,0 +1,78 @@
+# ---------------------------------------------------------------------------
+# Site
+# ---------------------------------------------------------------------------
+title: Byounghwa Lee
+tagline: Senior Researcher, ETRI
+description: >-
+  Byounghwa Lee is a Senior Researcher at ETRI. His research connects complex
+  systems with machine learning: temporal point processes, graph learning, and
+  AI for Science.
+url: "https://bh0903lee.github.io"
+baseurl: ""
+lang: en
+
+# ---------------------------------------------------------------------------
+# Author
+# ---------------------------------------------------------------------------
+author:
+  name: Byounghwa Lee
+  name_ko: 이병화
+  # Name spellings that should be bolded in publication lists
+  aliases:
+    - Byounghwa Lee
+    - Byoung-Hwa Lee
+  role: Senior Researcher
+  affiliation: Electronics and Telecommunications Research Institute (ETRI)
+  affiliation_short: ETRI
+  lab: Integrated Intelligence Research Section
+  location: Daejeon, Republic of Korea
+  email: byounghwa.lee@etri.re.kr
+  email_alt: byounghwa903.lee@gmail.com
+  # Swap in a real photo by overwriting assets/img/profile.png
+  photo: /assets/img/profile.png
+  cv: /assets/pdf/Byounghwa_Lee_CV.pdf
+
+# ---------------------------------------------------------------------------
+# External profiles (order is the order shown on the page)
+# ---------------------------------------------------------------------------
+links:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=TgWPNDoAAAAJ&hl=en
+  - name: ORCID
+    url: https://orcid.org/0000-0002-4862-2605
+  - name: GitHub
+    url: https://github.com/bh0903lee
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/byounghwa-lee-1847201a3/
+  - name: OpenReview
+    url: https://openreview.net/profile?id=~Byounghwa_Lee1
+
+# ---------------------------------------------------------------------------
+# Navigation
+# ---------------------------------------------------------------------------
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: CV
+    url: /cv/
+
+# ---------------------------------------------------------------------------
+# Build
+# ---------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: pretty
+exclude:
+  - README.md
+  - DEPLOY.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,73 @@
+# Invention families in which Byounghwa Lee is the first inventor.
+# Status reflects records confirmed as of September 2026. Public patent
+# databases lag official registers, so numbers here are the ones verified
+# against filing and registration documents.
+
+- key: T01
+  title: "Apparatus and method for generating networks using complex network metrics"
+  assignee: ETRI
+  filed: "KR 10-2022-0001721 (5 Jan 2022)"
+  status: granted
+  status_text: "Granted - KR 10-3005917 (12 Aug 2026)"
+  family:
+    - "US 17/936,254 - published as US20230214672A1"
+  links:
+    - name: KR publication
+      url: https://patents.google.com/patent/KR20230106003A/en
+    - name: US publication
+      url: https://patents.google.com/patent/US20230214672A1/en
+  note: Generating alternative networks under several structural constraints at once.
+
+- key: T02
+  title: "Apparatus for time-series pattern prediction and method of operating the same"
+  assignee: ETRI
+  filed: "KR 10-2023-0101823 (3 Aug 2023)"
+  status: pending
+  status_text: Pending
+  family:
+    - "US 18/602,429 - pending"
+  note: Bayesian network handling patterns across multiple time scales.
+
+- key: T03
+  title: "Event-cluster-based time-series prediction apparatus and method of operating the same"
+  assignee: ETRI
+  filed: "KR 10-2024-0055564 (25 Apr 2024)"
+  status: pending
+  status_text: Pending
+  note: Event clusters as a predictive representation.
+
+- key: T04
+  title: "Method and apparatus for predicting degenerative brain function decline and cognitive impairment using a vision-language model and a graph neural network"
+  assignee: ETRI
+  filed: "KR 10-2025-0078633 (16 Jun 2025)"
+  status: granted
+  status_text: "Granted - KR 10-2968743 (20 May 2026)"
+  family:
+    - "US 19/242,069 - published as US20250316388A1"
+  links:
+    - name: KR publication
+      url: https://patents.google.com/patent/KR20250179668A/en
+    - name: US publication
+      url: https://patents.google.com/patent/US20250316388A1/en
+  note: Learning from the relation between picture regions and descriptive sentences.
+
+- key: T05
+  title: "Method and apparatus for building a multimodal foundation model for predicting diverse neurological disorders"
+  assignee: ETRI
+  filed: "KR 10-2026-0021243 (3 Feb 2026)"
+  status: pending
+  status_text: Pending
+  note: Joint representation and multi-task learning across language-based disorders.
+
+- key: T06
+  title: "Electronic apparatus and control method thereof"
+  assignee: Samsung Electronics
+  filed: "KR 10-2021-0004603 (13 Jan 2021)"
+  status: granted
+  status_text: "Granted - KR 10-2900832 (16 Dec 2025)"
+  family:
+    - "PCT/KR2021/008634 - published as WO2022154199A1"
+  links:
+    - name: KR registration
+      url: https://patents.google.com/patent/KR102900832B1/en
+  note: Advertising engagement prediction and the decision rule built on it.

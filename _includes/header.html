@@ -1,0 +1,16 @@
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-head">
+  <div class="wrap site-head-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+    <nav class="site-nav" aria-label="Main">
+      {% for item in site.nav %}
+        {% assign target = item.url | relative_url %}
+        {% if page.url == item.url %}
+          <a href="{{ target }}" aria-current="page">{{ item.title }}</a>
+        {% else %}
+          <a href="{{ target }}">{{ item.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</header>

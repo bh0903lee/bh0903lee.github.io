@@ -1,0 +1,12 @@
+<li class="pub" id="{{ include.pub.key | downcase }}">
+  <p class="pub-title">{{ include.pub.title }}</p>
+  <p class="pub-authors">{% include authors.html list=include.pub.authors %}</p>
+  <p class="pub-meta">
+    <span class="venue">{{ include.pub.venue }}</span>, {{ include.pub.year }}
+    {%- if include.pub.role %} <span class="tag">{{ include.pub.role }}</span>{% endif %}
+  </p>
+  {%- if include.pub.summary %}<p class="pub-summary">{{ include.pub.summary }}</p>{% endif %}
+  {%- if include.pub.doi %}
+  <p class="pub-links"><a href="https://doi.org/{{ include.pub.doi }}" rel="noopener">doi:{{ include.pub.doi }}</a></p>
+  {%- endif %}
+</li>

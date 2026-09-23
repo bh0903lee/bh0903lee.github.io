@@ -1,0 +1,171 @@
+# Peer-reviewed publications. Newest first is not required - the site sorts by
+# `date`. To add a paper, copy one block and edit it.
+#
+#   type:    journal | conference
+#   role:    short description of the author role, shown as a tag
+#   authors: full author list in publication order
+
+- key: P01
+  title: "Multimodal Alzheimer's disease recognition from image, text and audio"
+  authors:
+    - Byounghwa Lee
+    - Hwa Jeon Song
+    - Young-Jin Park
+    - Byung Ok Kang
+  venue: Scientific Reports
+  type: journal
+  year: 2025
+  date: 2025-08-08
+  doi: 10.1038/s41598-025-14998-7
+  role: First and corresponding author
+  summary: >-
+    Builds an image-sentence bipartite graph with a vision-language model and
+    fuses the resulting GCN representation with text and speech encoders
+    through co-attention, then analyses each modality's contribution.
+
+- key: P02
+  title: "Alzheimer's disease recognition using graph neural network by leveraging image-text similarity from vision language model"
+  authors:
+    - Byounghwa Lee
+    - Jeong-Uk Bang
+    - Hwa Jeon Song
+    - Byung Ok Kang
+  venue: Scientific Reports
+  type: journal
+  year: 2025
+  date: 2025-01-06
+  doi: 10.1038/s41598-024-82597-z
+  role: First and corresponding author
+  summary: >-
+    Represents picture regions and spoken sentences in a shared vision-language
+    space and classifies participants from the similarity-weighted bipartite
+    graph, with ablations on the relational structure.
+
+- key: P03
+  title: "Burst and Memory-aware Transformer: capturing temporal heterogeneity"
+  authors:
+    - Byounghwa Lee
+    - Jung-Hoon Lee
+    - Sungyup Lee
+    - Cheol Ho Kim
+  venue: Frontiers in Computational Neuroscience
+  type: journal
+  year: 2023
+  date: 2023-12-12
+  doi: 10.3389/fncom.2023.1292842
+  role: First and corresponding author
+  summary: >-
+    Embeds burstiness and memory statistics into a Transformer temporal point
+    process and tests where explicit temporal heterogeneity helps next-event
+    time prediction.
+
+- key: P04
+  title: "Latent-Variable Classifiers Based on Total Correlation for Dynamic Environments"
+  authors:
+    - Cheol Ho Kim
+    - Byounghwa Lee
+    - Jung-Hoon Lee
+    - Ock Kee Baek
+  venue: "International Conference on Information and Communication Technology Convergence (ICTC)"
+  type: conference
+  year: 2023
+  date: 2023-10-11
+  doi: 10.1109/ICTC58733.2023.10393699
+  role: Co-author
+  summary: >-
+    Couples total-correlation latent variables with existing classifiers so
+    that models can absorb newly arriving features without revisiting past raw
+    data.
+
+- key: P05
+  title: "Explainable ML models for a deeper insight on treatment decision for localized prostate cancer"
+  authors:
+    - Jang Hee Han
+    - Sungyup Lee
+    - Byounghwa Lee
+    - Ock-kee Baek
+    - Samuel L. Washington III
+    - Annika Herlemann
+    - Peter E. Lonergan
+    - Peter R. Carroll
+    - Chang Wook Jeong
+    - Matthew R. Cooperberg
+  venue: Scientific Reports
+  type: journal
+  year: 2023
+  date: 2023-07-17
+  doi: 10.1038/s41598-023-38162-1
+  role: Co-author
+  summary: >-
+    Combines registry and regional health-resource data to model observed
+    treatment choices for localized prostate cancer, using SHAP to examine how
+    clinical and socioeconomic factors interact.
+
+- key: P06
+  title: "Brain-inspired Predictive Coding Improves the Performance of Machine Challenging Tasks"
+  authors:
+    - Jangho Lee
+    - Jeonghee Jo
+    - Byounghwa Lee
+    - Jung-Hoon Lee
+    - Sungroh Yoon
+  venue: Frontiers in Computational Neuroscience
+  type: journal
+  year: 2022
+  date: 2022-11-16
+  doi: 10.3389/fncom.2022.1062678
+  role: Co-author
+  summary: >-
+    Applies predictive-coding learning to incremental, long-tailed and
+    few-shot recognition, where backpropagation-trained networks struggle.
+
+- key: P07
+  title: "Copula-based algorithm for generating bursty time series"
+  authors:
+    - Hang-Hyun Jo
+    - Byoung-Hwa Lee
+    - Takayuki Hiraoka
+    - Woo-Sung Jung
+  venue: Physical Review E
+  type: journal
+  year: 2019
+  date: 2019-08-14
+  doi: 10.1103/PhysRevE.100.022307
+  role: Co-author
+  summary: >-
+    Uses a Farlie-Gumbel-Morgenstern copula to generate event sequences with a
+    prescribed inter-event time distribution and a prescribed memory
+    coefficient, controlling the two independently.
+
+- key: P08
+  title: "Hierarchical burst model for complex bursty dynamics"
+  authors:
+    - Byoung-Hwa Lee
+    - Woo-Sung Jung
+    - Hang-Hyun Jo
+  venue: Physical Review E
+  type: journal
+  year: 2018
+  date: 2018-08-17
+  doi: 10.1103/PhysRevE.98.022316
+  role: First author
+  summary: >-
+    Proposes a hierarchical generative model in which one mechanism accounts
+    for the inter-event time distribution, the autocorrelation and the burst
+    size distribution at once.
+
+- key: P09
+  title: "Analysis on the urban street network of Korea: Connections between topology and meta-information"
+  authors:
+    - Byoung-Hwa Lee
+    - Woo-Sung Jung
+  venue: "Physica A: Statistical Mechanics and its Applications"
+  type: journal
+  year: 2018
+  date: 2018-05-01
+  doi: 10.1016/j.physa.2017.12.131
+  role: First author
+  summary: >-
+    Analyses the street networks of 22 Korean cities through centrality
+    measures, planning regularity and population-road length scaling, and
+    relates the structural groups to urban meta-information.

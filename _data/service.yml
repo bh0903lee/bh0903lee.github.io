@@ -1,0 +1,51 @@
+awards:
+  - year: 2025
+    text: IEEE Access Exceptional Reviewer
+
+reviewing:
+  - journal: Journal of Big Data
+    years: "2025"
+  - journal: The Journal of Supercomputing
+    years: "2025"
+  - journal: Nonlinear Dynamics
+    years: "2025"
+  - journal: Multimedia Systems
+    years: "2025"
+  - journal: Wireless Networks
+    years: "2025, 2026"
+  - journal: Scientific Reports
+    years: "2025"
+  - journal: Journal of King Saud University - Computer and Information Sciences
+    years: "2026"
+  - journal: IEEE Access
+    years: "2025"
+
+teaching:
+  - term: Spring 2012
+    course: General Physics I
+    org: POSTECH
+    role: Teaching Assistant
+  - term: Fall 2012
+    course: General Physics II
+    org: POSTECH
+    role: Teaching Assistant
+  - term: Spring 2013
+    course: Statistical Mechanics
+    org: POSTECH
+    role: Teaching Assistant
+
+other:
+  - year: 2025
+    text: >-
+      Intelligent System for Early Detection of Mild Cognitive Impairment and
+      Dementia Risk Through Spoken Language Analysis - IEEE ICASSP 2025 Show &
+      Tell demonstration (co-author).
+  - year: 2025
+    text: >-
+      Technology transfer of the Korean speech-based MCI classification model
+      (lead developer).
+  - year: 2024
+    text: >-
+      Contributor, DementiaBank Korean Kang Corpus (DOI 10.21415/PJVS-9X49).
+  - year: 2015
+    text: Short research visit, Aalto University, Finland.
