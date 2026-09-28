@@ -34,6 +34,86 @@ teaching:
     org: POSTECH
     role: Teaching Assistant
 
+presentations:
+  - group: International Conferences
+    items:
+      - date: Apr 2025
+        title: Intelligent System for Early Detection of Mild Cognitive Impairment and Dementia Risk Through Spoken Language Analysis
+        venue: IEEE ICASSP 2025, Show & Tell
+        authors: Byung Ok Kang, Byounghwa Lee, Jeong-Uk Bang, Hwa Jeon Song, Young Jin Park
+      - date: Jun 2016
+        title: Analyzing the Urban Street Networks of Korea
+        venue: NetSci 2016
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+      - date: Nov 2014
+        title: "Centrality in Urban Street Networks of Korea: From Classification to Model"
+        venue: International Conference on Social Modeling and Simulations & Econophysics Colloquium
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+      - date: Oct 2014
+        title: Complex Network Analysis of the Korean Transportation Network
+        venue: 15th Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS)
+        authors: Byoung-Hwa Lee, Inho Hong, Woo-Sung Jung
+      - date: Sep 2014
+        title: Statistical Properties of the Korean Transportation Network as a Complex Network
+        venue: European Conference on Complex Systems (ECCS) '14
+        authors: Byoung-Hwa Lee, Inho Hong, Woo-Sung Jung, Okyu Kwon
+      - date: Jul 2013
+        title: Prediction of Congestion Sites in Pohang
+        venue: Econophysics Colloquium 2013 & Asia Pacific Econophysics Conference 2013
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+  - group: International Workshops
+    items:
+      - date: Dec 2016
+        title: Complex Network Analysis of the Urban Street Structure of Korean Cities
+        venue: "APCTP 2016 Workshop on Frontiers of Physics: Push the Envelope of Statistical Physics"
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+      - date: Feb 2016
+        title: Industrial Dynamics in Urban Areas
+        venue: "Application of Econophysics and Social Physics: Winter Workshop"
+        authors: Inho Hong, Byoung-Hwa Lee, Hang-Hyun Jo, Woo-Sung Jung, Hyejin Youn
+      - date: Nov 2015
+        title: Classification of the Street Patterns by Using Centrality Analysis
+        venue: Physics of Social Complexity
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+      - date: Jul 2013
+        title: Roads Network in Pohang
+        venue: 5th International Symposium on IT Convergence Engineering
+        authors: Byoung-Hwa Lee
+  - group: Domestic Conferences
+    items:
+      - date: Apr 2018
+        title: Hierarchical Modeling for Correlated Bursty Dynamics
+        venue: 2018 Korean Physical Society Spring Meeting
+        authors: Byoung-Hwa Lee, Hang-Hyun Jo
+      - date: Aug 2017
+        title: Hierarchical Model for Correlated Bursty Dynamics
+        venue: 19th Workshop for Statistical Physics
+        authors: Byoung-Hwa Lee, Hang-Hyun Jo
+      - date: Apr 2015
+        title: Complex Network Analysis of the Korean Urban Street Structure
+        venue: 2015 Korean Physical Society Spring Meeting
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+      - date: Oct 2014
+        title: "Centrality Analysis in Street Networks of Korea: From Classification to Model"
+        venue: 2014 Korean Physical Society Fall Meeting
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+      - date: Aug 2014
+        title: "Centrality Analysis in the Korean Street Networks: From Classification to Model"
+        venue: "Application of Econophysics and Social Physics: Summer Workshop"
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+      - date: Nov 2013
+        title: "Analysis of Road Networks Using Complex Network: Predicting Traffic Congestion Areas in Pohang and Changwon via Betweenness Centrality"
+        venue: 8th Conference on Complexity (in Korean)
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+      - date: Nov 2013
+        title: "Investigation of Road Networks in Two Korean Cities: Pohang and Changwon"
+        venue: 17th Workshop for Statistical Physics
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+      - date: Oct 2013
+        title: "Investigation of Road Networks in Two Korean Cities: Pohang and Changwon"
+        venue: 2013 Korean Physical Society Fall Meeting
+        authors: Byoung-Hwa Lee, Woo-Sung Jung
+
 other:
   - year: Apr 2025
     text: >-

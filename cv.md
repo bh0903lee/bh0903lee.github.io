@@ -58,6 +58,64 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
   </div>
 </div>
 
+## Patents
+
+Status as of September 2026. Within each section, entries are ordered by filing date, newest first
+(KR filing date for patent families; US filing date for additional co-inventor applications).
+
+<h3 class="patent-group-title">First-inventor patent families</h3>
+
+{% assign patent_families = site.data.patents | sort: "filing_date" | reverse %}
+{% for pt in patent_families %}
+<article class="patent-card" aria-labelledby="patent-{{ pt.key | downcase }}">
+  <header class="patent-header">
+    <h4 id="patent-{{ pt.key | downcase }}">{{ pt.topic | escape }}</h4>
+    <span class="patent-assignee">{{ pt.assignee | escape }}</span>
+  </header>
+  <div class="patent-records">
+  {% include patent-record.html country="KR" title=pt.title application=pt.filed status=pt.status_text links=pt.links %}
+  {%- if pt.us %}
+  {% include patent-record.html country="US" title=pt.us.title application=pt.us.application publication=pt.us.publication url=pt.us.url status=pt.us.status %}
+  {%- endif %}
+  {%- if pt.family %}
+  <p class="patent-meta patent-family">{% for f in pt.family %}{{ f | escape }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
+  {%- endif %}
+  </div>
+</article>
+{% endfor %}
+
+<h3 class="patent-group-title">Additional U.S. applications as co-inventor</h3>
+
+{% assign co_inventions = site.data.us_co_inventions | sort: "filing_date" | reverse %}
+{% for pt in co_inventions %}
+<article class="patent-card" aria-labelledby="co-patent-{{ forloop.index }}">
+  <header class="patent-header">
+    <h4 id="co-patent-{{ forloop.index }}">{{ pt.topic | escape }}</h4>
+  </header>
+  <div class="patent-records">
+  {% include patent-record.html country="US" title=pt.title application=pt.application filing_date=pt.filing_date publication=pt.publication url=pt.url status=pt.status %}
+  </div>
+</article>
+{% endfor %}
+
+## Presentations
+
+{% for g in site.data.service.presentations %}
+### {{ g.group }}
+
+<div class="rows">
+  {% for p in g.items %}
+  <div class="row">
+    <div class="row-when">{{ p.date }}</div>
+    <div class="row-what">
+      <p>{{ p.title }}</p>
+      <p class="sub">{{ p.venue }}{% if p.authors %} &middot; {{ p.authors }}{% endif %}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+
 ## Awards
 
 <div class="rows">
