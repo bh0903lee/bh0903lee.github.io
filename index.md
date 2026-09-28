@@ -14,7 +14,7 @@ featured_publications: [P01, P02, P03]
     <ul class="linkbar">
       <li><a class="primary" href="{{ site.author.cv | relative_url }}">CV (PDF)</a></li>
       {% for l in site.links %}
-      <li><a href="{{ l.url }}" rel="noopener">{{ l.name }}</a></li>
+      <li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.name }}</a></li>
       {% endfor %}
       <li><a href="mailto:{{ site.author.email }}">Email</a></li>
     </ul>
@@ -66,7 +66,7 @@ applications to drug discovery.
   <div class="row">
     <div class="row-when">Profiles</div>
     <div class="row-what">
-      <p class="inline-list">{% for l in site.links %}<a href="{{ l.url }}" rel="noopener">{{ l.name }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
+      <p class="inline-list">{% for l in site.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.name }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
     </div>
   </div>
 </div>

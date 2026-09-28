@@ -30,6 +30,6 @@ description: Peer-reviewed publications of Byounghwa Lee.
     <p class="pub-title">DementiaBank Korean Kang Corpus</p>
     <p class="pub-authors"><strong>Byounghwa Lee</strong> (contributor)</p>
     <p class="pub-meta"><span class="venue">TalkBank / DementiaBank</span> <span class="tag">Dataset</span></p>
-    <p class="pub-links"><a href="https://doi.org/10.21415/PJVS-9X49" rel="noopener">doi:10.21415/PJVS-9X49</a></p>
+    <p class="pub-links"><a href="https://doi.org/10.21415/PJVS-9X49" target="_blank" rel="noopener">doi:10.21415/PJVS-9X49</a></p>
   </li>
 </ul>

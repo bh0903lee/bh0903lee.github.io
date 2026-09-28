@@ -9,7 +9,7 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
 <ul class="linkbar">
   <li><a class="primary" href="{{ site.author.cv | relative_url }}">Download full CV (PDF)</a></li>
   {% for l in site.links %}
-  <li><a href="{{ l.url }}" rel="noopener">{{ l.name }}</a></li>
+  <li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.name }}</a></li>
   {% endfor %}
 </ul>
 

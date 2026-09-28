@@ -2,8 +2,8 @@
   <p class="patent-title"><strong class="patent-country">{{ include.country | escape }}</strong> <strong>{{ include.title | escape }}</strong></p>
   <p class="patent-meta">
     {% if include.assignee %}{{ include.assignee | escape }} &middot; {% endif %}{{ include.application | escape }}{% if include.filing_date %} ({{ include.filing_date | date: "%d %b %Y" }}){% endif %}
-    {% if include.publication %}&middot; <a href="{{ include.url }}" rel="noopener">{{ include.publication | escape }}</a>{% endif %}
+    {% if include.publication %}&middot; <a href="{{ include.url }}" target="_blank" rel="noopener">{{ include.publication | escape }}</a>{% endif %}
     &middot; <span class="patent-status">{{ include.status | escape }}</span>
-    {% for link in include.links %}&middot; <a href="{{ link.url }}" rel="noopener">{{ link.name | escape }}</a>{% endfor %}
+    {% for link in include.links %}&middot; <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name | escape }}</a>{% endfor %}
   </p>
 </div>
