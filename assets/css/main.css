@@ -240,13 +240,19 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
 .card p:last-child { margin-bottom: 0; }
 .card-links { font-size: .86rem; }
 
-/* Compact patent records: bold titles, muted metadata, KR before US. */
+/* Compact families with connected KR/US records nested below each heading. */
 .patent-group-title { margin: 1.5rem 0 .25rem; color: var(--text-soft); }
-.patent-card { padding: .85rem 0; border-bottom: 1px solid var(--rule); }
+.patent-card { margin: .7rem 0; padding: .75rem .9rem; border: 1px solid var(--rule); border-radius: 6px; }
+.patent-header { display: flex; flex-wrap: wrap; align-items: baseline; gap: .15rem .65rem; }
+.patent-header h4 { margin: 0; font-size: .97rem; line-height: 1.4; font-weight: 650; }
+.patent-assignee { font-size: .8rem; color: var(--text-soft); }
+.patent-records { margin-top: .55rem; padding-left: .8rem; border-left: 2px solid var(--rule); }
+.patent-record { position: relative; }
+.patent-record::before { content: ""; position: absolute; left: calc(-.8rem - 2px); top: .65rem; width: .55rem; border-top: 2px solid var(--rule); }
 .patent-record + .patent-record { margin-top: .55rem; }
-.patent-title { margin: 0 0 .15rem; font-size: .94rem; line-height: 1.45; }
-.patent-title strong { font-weight: 600; }
-.patent-title .patent-country { margin-right: .35rem; font-size: .8rem; font-weight: 700; color: var(--accent); }
+.patent-title { margin: 0 0 .15rem; font-size: .92rem; line-height: 1.45; }
+.patent-title strong { font-weight: 500; }
+.patent-title .patent-country { display: inline-block; margin-right: .3rem; padding: 0 .25rem; border-radius: 3px; font-size: .76rem; font-weight: 700; color: var(--accent); background: var(--accent-bg); }
 .patent-meta { margin: 0; font-size: .84rem; line-height: 1.55; color: var(--text-soft); overflow-wrap: anywhere; }
 .patent-status { font-weight: 500; }
 .patent-family { margin-top: .3rem; }
@@ -295,6 +301,7 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
   .news time { flex-basis: auto; }
   .row { flex-direction: column; gap: .15rem; }
   .row-when { flex-basis: auto; }
+  .patent-card { padding: .65rem .7rem; }
 }
 
 @media print {

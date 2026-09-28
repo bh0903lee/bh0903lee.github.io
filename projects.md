@@ -41,21 +41,32 @@ Status as of September 2026.
 <h3 class="patent-group-title">First-inventor patent families</h3>
 
 {% for pt in site.data.patents %}
-<article class="patent-card">
-  {% include patent-record.html country="KR" title=pt.title assignee=pt.assignee application=pt.filed status=pt.status_text links=pt.links %}
+<article class="patent-card" aria-labelledby="patent-{{ pt.key | downcase }}">
+  <header class="patent-header">
+    <h4 id="patent-{{ pt.key | downcase }}">{{ pt.topic | escape }}</h4>
+    <span class="patent-assignee">{{ pt.assignee | escape }}</span>
+  </header>
+  <div class="patent-records">
+  {% include patent-record.html country="KR" title=pt.title application=pt.filed status=pt.status_text links=pt.links %}
   {%- if pt.us %}
   {% include patent-record.html country="US" title=pt.us.title application=pt.us.application publication=pt.us.publication url=pt.us.url status=pt.us.status %}
   {%- endif %}
   {%- if pt.family %}
   <p class="patent-meta patent-family">{% for f in pt.family %}{{ f | escape }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
   {%- endif %}
+  </div>
 </article>
 {% endfor %}
 
 <h3 class="patent-group-title">Additional U.S. applications as co-inventor</h3>
 
 {% for pt in site.data.us_co_inventions %}
-<article class="patent-card">
+<article class="patent-card" aria-labelledby="co-patent-{{ forloop.index }}">
+  <header class="patent-header">
+    <h4 id="co-patent-{{ forloop.index }}">{{ pt.topic | escape }}</h4>
+  </header>
+  <div class="patent-records">
   {% include patent-record.html country="US" title=pt.title application=pt.application publication=pt.publication url=pt.url status=pt.status %}
+  </div>
 </article>
 {% endfor %}
