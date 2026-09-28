@@ -42,21 +42,12 @@ Status as of September 2026.
 
 {% for pt in site.data.patents %}
 <article class="patent-card">
-  <h4 class="patent-heading">{{ pt.topic | escape }}</h4>
-  <p class="patent-assignee">{{ pt.assignee }}</p>
-  {% include patent-record.html country="South Korea" title=pt.title application=pt.filed status=pt.status_text links=pt.links %}
+  {% include patent-record.html country="KR" title=pt.title assignee=pt.assignee application=pt.filed status=pt.status_text links=pt.links %}
   {%- if pt.us %}
-  {% include patent-record.html country="United States" title=pt.us.title application=pt.us.application publication=pt.us.publication url=pt.us.url status=pt.us.status %}
+  {% include patent-record.html country="US" title=pt.us.title application=pt.us.application publication=pt.us.publication url=pt.us.url status=pt.us.status %}
   {%- endif %}
   {%- if pt.family %}
-  <div class="patent-record">
-    <p class="patent-country">International</p>
-    <div class="patent-details">
-      <dl class="patent-facts">
-        <div><dt>PCT</dt><dd>{% for f in pt.family %}{{ f | escape }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</dd></div>
-      </dl>
-    </div>
-  </div>
+  <p class="patent-meta patent-family">{% for f in pt.family %}{{ f | escape }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
   {%- endif %}
 </article>
 {% endfor %}
@@ -65,7 +56,6 @@ Status as of September 2026.
 
 {% for pt in site.data.us_co_inventions %}
 <article class="patent-card">
-  <h4 class="patent-heading">{{ pt.topic | escape }}</h4>
-  {% include patent-record.html country="United States" title=pt.title application=pt.application publication=pt.publication url=pt.url status=pt.status %}
+  {% include patent-record.html country="US" title=pt.title application=pt.application publication=pt.publication url=pt.url status=pt.status %}
 </article>
 {% endfor %}

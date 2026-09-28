@@ -1,16 +1,9 @@
 <div class="patent-record">
-  <p class="patent-country">{{ include.country | escape }}</p>
-  <div class="patent-details">
-    <p class="patent-title">{{ include.title | escape }}</p>
-    <dl class="patent-facts">
-      <div><dt>Application</dt><dd>{{ include.application | escape }}</dd></div>
-      {% if include.publication %}
-      <div><dt>Publication</dt><dd><a href="{{ include.url }}" rel="noopener">{{ include.publication | escape }}</a></dd></div>
-      {% endif %}
-      <div><dt>Status</dt><dd>{{ include.status | escape }}</dd></div>
-      {% if include.links %}
-      <div><dt>Record</dt><dd>{% for link in include.links %}<a href="{{ link.url }}" rel="noopener">{{ link.name | escape }}</a>{% unless forloop.last %}<br>{% endunless %}{% endfor %}</dd></div>
-      {% endif %}
-    </dl>
-  </div>
+  <p class="patent-title"><strong class="patent-country">{{ include.country | escape }}</strong> <strong>{{ include.title | escape }}</strong></p>
+  <p class="patent-meta">
+    {% if include.assignee %}{{ include.assignee | escape }} &middot; {% endif %}{{ include.application | escape }}
+    {% if include.publication %}&middot; <a href="{{ include.url }}" rel="noopener">{{ include.publication | escape }}</a>{% endif %}
+    &middot; <span class="patent-status">{{ include.status | escape }}</span>
+    {% for link in include.links %}&middot; <a href="{{ link.url }}" rel="noopener">{{ link.name | escape }}</a>{% endfor %}
+  </p>
 </div>
