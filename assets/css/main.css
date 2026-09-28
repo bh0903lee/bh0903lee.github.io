@@ -35,7 +35,7 @@
    --------------------------------------------------------------------------- */
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 4.5rem; }
 
 body {
   margin: 0;
@@ -83,6 +83,9 @@ p { margin: 0 0 1rem; }
    Header
    --------------------------------------------------------------------------- */
 .site-head {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   border-bottom: 1px solid var(--rule);
   background: var(--bg);
 }
