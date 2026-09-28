@@ -3,16 +3,16 @@
 
 - name: Scientific representation learning
   org: ETRI
-  period: "2026 - present"
-  my_period: "2026 - present"
+  period: "Jan 2026 - present"
+  my_period: "Jan 2026 - present"
   role: Encoder and tokenizer development, model evaluation
   current: true
   description: >-
-    I develop science-specific encoders and tokenizers, with applications to
-    drug discovery. My work includes constructing model inputs, combining
+    Science-specific encoders and tokenizers are the focus of my current work,
+    with applications to drug discovery. I build model inputs, combine
     sequence representations with 3D interaction features for protein–ligand
-    binding-affinity prediction, and evaluating models under similarity-controlled
-    data splits. I check measurement types and units to keep the data and
+    binding-affinity prediction, and evaluate models under similarity-controlled
+    data splits. Checks on measurement types and units keep the data and
     evaluation conditions consistent.
 
 - name: Speech and multimodal learning for cognitive assessment
@@ -21,10 +21,11 @@
   my_period: "Jan 2024 - Aug 2026"
   role: Cognitive modelling, field deployment and model integration
   description: >-
-    I developed graph-based and multimodal methods for Alzheimer's disease
-    classification from picture-description speech. In applied work, I developed
-    a Korean speech-based model for mild cognitive impairment. I also contributed
-    to model integration for an interactive cognitive assessment system.
+    This work combined research on Alzheimer's disease classification from
+    picture-description speech with applied development for mild cognitive
+    impairment assessment. My contributions included graph-based and multimodal
+    methods, a Korean speech-based classification model, and model integration
+    for an interactive cognitive assessment system.
 
 - name: Event-sequence learning and collaborative machine learning
   org: ETRI
@@ -44,8 +45,9 @@
   my_period: "Mar 2019 - Jul 2021"
   role: Staff Engineer
   description: >-
-    I developed demand and material-order forecasting models and evaluated
-    order predictions through inventory simulations, including overstock and
-    shortages. I led development of a self-attention model for
+    At Samsung Research, I developed demand and material-order forecasting models,
+    evaluating order predictions through inventory simulations that accounted
+    for overstock and shortages. In advertising and recommendation, I led
+    development of a self-attention model for
     multi-touch advertising attribution, and designed a self-supervised
     architecture for cross-domain recommendation.

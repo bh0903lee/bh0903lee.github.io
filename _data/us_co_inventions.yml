@@ -1,6 +1,8 @@
 # Additional U.S. applications in the personal CV; not first-inventor families.
+# U.S. filing dates verified against the public CV; displayed newest first.
 - title: Apparatus and method for reproducing tabular data
   topic: Tabular data generation
+  filing_date: "2024-10-17"
   application: US 18/918,943
   publication: US20260017529A1
   role: Co-inventor
@@ -8,6 +10,7 @@
   url: https://patents.google.com/patent/US20260017529A1/en
 - title: Machine learning device using adaptive feature selection and method of operating the same
   topic: Adaptive feature selection
+  filing_date: "2024-05-17"
   application: US 18/667,206
   publication: US20250077966A1
   role: Co-inventor

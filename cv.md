@@ -76,9 +76,7 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
   {% endfor %}
 </div>
 
-## Professional service
-
-Peer review for selected journals:
+## Selected peer review
 
 <div class="rows">
   {% for r in site.data.service.reviewing %}
@@ -99,12 +97,3 @@ Peer review for selected journals:
   </div>
   {% endfor %}
 </div>
-
-## Selected outputs
-
-{% assign pubcount = site.data.publications | size %}
-{% assign patcount = site.data.patents | size %}
-
-{{ pubcount }} peer-reviewed papers and {{ patcount }} first-inventor patent
-families. See [Publications]({{ '/publications/' | relative_url }}) and
-[Projects]({{ '/projects/' | relative_url }}) for the full lists.

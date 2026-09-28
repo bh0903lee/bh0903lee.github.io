@@ -29,18 +29,20 @@ Graduate research is described under
   <p class="card-meta">ETRI &middot; 2025</p>
   <p class="card-role"><strong>Role:</strong> Lead developer</p>
   <p>
-    I developed the Korean speech-based classification model and contributed
+    As lead developer, I built the Korean speech-based classification model and contributed
     to its field deployment and technology transfer.
   </p>
 </div>
 
 ## Patents
 
-Status as of September 2026.
+Status as of September 2026. Within each section, entries are ordered by filing date, newest first
+(KR filing date for patent families; US filing date for additional co-inventor applications).
 
 <h3 class="patent-group-title">First-inventor patent families</h3>
 
-{% for pt in site.data.patents %}
+{% assign patent_families = site.data.patents | sort: "filing_date" | reverse %}
+{% for pt in patent_families %}
 <article class="patent-card" aria-labelledby="patent-{{ pt.key | downcase }}">
   <header class="patent-header">
     <h4 id="patent-{{ pt.key | downcase }}">{{ pt.topic | escape }}</h4>
@@ -60,13 +62,14 @@ Status as of September 2026.
 
 <h3 class="patent-group-title">Additional U.S. applications as co-inventor</h3>
 
-{% for pt in site.data.us_co_inventions %}
+{% assign co_inventions = site.data.us_co_inventions | sort: "filing_date" | reverse %}
+{% for pt in co_inventions %}
 <article class="patent-card" aria-labelledby="co-patent-{{ forloop.index }}">
   <header class="patent-header">
     <h4 id="co-patent-{{ forloop.index }}">{{ pt.topic | escape }}</h4>
   </header>
   <div class="patent-records">
-  {% include patent-record.html country="US" title=pt.title application=pt.application publication=pt.publication url=pt.url status=pt.status %}
+  {% include patent-record.html country="US" title=pt.title application=pt.application filing_date=pt.filing_date publication=pt.publication url=pt.url status=pt.status %}
   </div>
 </article>
 {% endfor %}

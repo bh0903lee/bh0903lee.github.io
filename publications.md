@@ -1,14 +1,10 @@
 ---
 layout: page
 title: Publications
-subtitle: Peer-reviewed journal and conference papers, newest first.
+subtitle: Peer-reviewed journal and conference papers.
 permalink: /publications/
 description: Peer-reviewed publications of Byounghwa Lee.
 ---
-
-My name appears in **bold**. Publications are also listed on
-[Google Scholar]({{ site.links[0].url }}) and
-[ORCID]({{ site.links[1].url }}).
 
 {% assign pubs = site.data.publications | sort: "date" | reverse %}
 {% assign years = pubs | map: "year" | uniq %}
@@ -28,7 +24,7 @@ My name appears in **bold**. Publications are also listed on
     <p class="pub-title">Intelligent System for Early Detection of Mild Cognitive Impairment and Dementia Risk Through Spoken Language Analysis</p>
     <p class="pub-authors">Byung Ok Kang, <strong>Byounghwa Lee</strong>, Jeong-Uk Bang, Hwa Jeon Song, Young Jin Park</p>
     <p class="pub-meta"><span class="venue">IEEE ICASSP 2025, Show &amp; Tell</span>, April 2025 <span class="tag">Demonstration</span></p>
-    <p class="pub-summary">A demonstration of a screening system for cognitive-decline risk based on spoken language analysis. Listed separately from refereed technical papers.</p>
+    <p class="pub-summary">A screening system for cognitive-decline risk based on spoken language analysis.</p>
   </li>
   <li class="pub">
     <p class="pub-title">DementiaBank Korean Kang Corpus</p>
