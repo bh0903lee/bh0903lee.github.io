@@ -18,7 +18,7 @@ generation?
 <div class="theme">
   <h3>Scientific representation learning for drug discovery</h3>
   <p>
-    I develop science-specific encoders and tokenizers, using protein–ligand
+    I develop science-specialized encoders and tokenizers, using protein–ligand
     binding-affinity prediction to study how sequence and three-dimensional
     information can be combined. Evaluation under
     similarity-controlled data splits assesses generalization beyond closely

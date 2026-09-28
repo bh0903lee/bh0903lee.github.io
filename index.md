@@ -34,7 +34,7 @@ and speech. A recurring question runs through this work: when does structural
 information improve a model, and when do explicit computation and search remain
 necessary for reliable prediction and generation?
 
-My current work develops science-specific encoders and tokenizers, with
+My current work develops science-specialized encoders and tokenizers, with
 applications to drug discovery.
 
 <ul class="keywords">
