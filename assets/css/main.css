@@ -197,6 +197,10 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
 .theme { margin-bottom: 1.9rem; }
 .theme h3 { margin-top: 0; }
 .theme p:last-child { margin-bottom: 0; }
+.research-papers { margin: 0; padding-left: 1.2rem; font-size: .92rem; }
+.research-papers li { margin-bottom: .65rem; }
+.research-papers li:last-child { margin-bottom: 0; }
+.research-paper-meta { display: block; color: var(--text-soft); font-size: .86rem; }
 
 /* Publications */
 .pub-list { list-style: none; padding: 0; margin: 0; }

@@ -1,0 +1,10 @@
+{% assign paper_keys = include.keys | split: "," %}
+<ul class="research-papers">
+  {% for paper_key in paper_keys %}
+  {% assign paper = site.data.publications | where: "key", paper_key | first %}
+  <li>
+    <a href="{{ '/publications/' | relative_url }}#{{ paper.key | downcase }}">{{ paper.title | escape }}</a>
+    <span class="research-paper-meta">{{ paper.venue | escape }}, {{ paper.year }}</span>
+  </li>
+  {% endfor %}
+</ul>

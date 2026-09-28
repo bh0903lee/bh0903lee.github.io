@@ -2,6 +2,7 @@
 layout: default
 title: Home
 permalink: /
+featured_publications: [P01, P02, P03]
 ---
 
 <div class="hero">
@@ -26,25 +27,39 @@ POSTECH in 2012 and 2019, where I studied correlated bursty dynamics and complex
 networks, and I was a Staff Engineer at Samsung Research before joining ETRI in
 2021.
 
-My research connects complex systems with machine learning along two lines:
-temporal point processes, from the study of burstiness and memory in event
-sequences, and graph learning, from network structure and constraints. A
-recurring question in this work is when structural information improves a
-learned model and when explicit computation or search remains necessary. I
-currently apply this to AI for Science, working on sequence encoders for
-scientific data and on protein–ligand representation learning.
+My research connects complex systems with machine learning, with a focus on
+multimodal learning for cognitive assessment and the modelling of bursty event
+sequences. In two 2025 papers in *Scientific Reports*, I developed graph-based
+and multimodal approaches to Alzheimer's disease recognition from
+picture-description speech, linking visual context with language and audio.
+My work on temporal dynamics spans generative models in *Physical Review E*
+and the Burst and Memory-aware Transformer for event-time prediction in
+*Frontiers in Computational Neuroscience*. Earlier work in *Physica A*
+examined the structure of urban street networks.
 
 <ul class="keywords">
+  <li>Multimodal learning</li>
+  <li>Speech-language cognitive assessment</li>
+  <li>Graph learning</li>
   <li>Temporal point processes</li>
   <li>Burstiness and memory</li>
-  <li>Graph learning</li>
-  <li>Constrained graph generation</li>
-  <li>Scientific representation learning</li>
-  <li>AI for Science</li>
-  <li>Multimodal speech-language modelling</li>
+  <li>Complex networks</li>
 </ul>
 
 [Read more about my research →]({{ '/research/' | relative_url }})
+
+## Selected publications
+
+Recent journal papers as first and corresponding author.
+
+<ol class="pub-list">
+{% for key in page.featured_publications %}
+{% assign paper = site.data.publications | where: "key", key | first %}
+{% include publication.html pub=paper %}
+{% endfor %}
+</ol>
+
+[View all publications →]({{ '/publications/' | relative_url }})
 
 ## News
 
