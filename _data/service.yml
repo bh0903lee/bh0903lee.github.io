@@ -115,16 +115,11 @@ presentations:
         authors: Byoung-Hwa Lee, Woo-Sung Jung
 
 other:
-  - year: Apr 2025
+  - year: 2026
     text: >-
-      Intelligent System for Early Detection of Mild Cognitive Impairment and
-      Dementia Risk Through Spoken Language Analysis - IEEE ICASSP 2025 Show &
-      Tell demonstration (co-author).
+      Technology transfer of the Korean speech-based MCI classification model to
+      two companies under two technology-transfer agreements (lead developer).
   - year: 2025
-    text: >-
-      Technology transfer of the Korean speech-based MCI classification model
-      (lead developer).
-  - year: 2024
     text: >-
       Contributor, DementiaBank Korean Kang Corpus (DOI 10.21415/PJVS-9X49).
   - year: Feb 2015

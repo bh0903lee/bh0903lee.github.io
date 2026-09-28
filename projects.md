@@ -26,11 +26,11 @@ Graduate research is described under
 
 <div class="card">
   <h3>Korean speech-based classification model for mild cognitive impairment</h3>
-  <p class="card-meta">ETRI &middot; 2025</p>
+  <p class="card-meta">ETRI &middot; 2026</p>
   <p class="card-role"><strong>Role:</strong> Lead developer</p>
   <p>
     As lead developer, I built the Korean speech-based classification model and contributed
-    to its field deployment and technology transfer.
+    to its field deployment and its transfer to two companies under two technology-transfer agreements.
   </p>
 </div>
 
