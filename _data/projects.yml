@@ -1,20 +1,19 @@
 # Research areas and industrial applications, described through personal
 # contributions rather than formal program titles or internal identifiers.
 
-- name: Science-specific encoders and tokenizers for drug discovery
+- name: Scientific representation learning
   org: ETRI
   period: "2026 - present"
   my_period: "2026 - present"
-  role: Scientific representation learning, tokenizer design and evaluation
+  role: Encoder and tokenizer development, model evaluation
   current: true
   description: >-
     I develop science-specific encoders and tokenizers, with applications to
-    drug discovery. The work focuses on representing scientific data in forms
-    suited to downstream modelling and prediction. Protein–ligand
-    binding-affinity modelling provides a concrete setting for testing how
-    sequence representations and 3D interaction features can be combined. I
-    also examine measurement types, units and similarity-controlled data splits
-    to evaluate the resulting representations.
+    drug discovery. My work includes constructing model inputs, combining
+    sequence representations with 3D interaction features for protein–ligand
+    binding-affinity prediction, and evaluating models under similarity-controlled
+    data splits. I check measurement types and units to keep the data and
+    evaluation conditions consistent.
 
 - name: Speech and multimodal learning for cognitive assessment
   org: ETRI
@@ -24,10 +23,8 @@
   description: >-
     I developed graph-based and multimodal methods for Alzheimer's disease
     classification from picture-description speech. In applied work, I developed
-    a Korean speech-based model for mild cognitive impairment as its primary
-    developer and contributed to field deployment and technology transfer. I also
-    worked on real-time speech processing, session handling and server
-    integration for an interactive assessment system.
+    a Korean speech-based model for mild cognitive impairment. I also contributed
+    to model integration for an interactive cognitive assessment system.
 
 - name: Event-sequence learning and collaborative machine learning
   org: ETRI
@@ -51,6 +48,4 @@
     order predictions through inventory simulations, including overstock and
     shortages. I led development of a self-attention model for
     multi-touch advertising attribution, and designed a self-supervised
-    architecture for cross-domain recommendation. The work addressed temporal
-    demand patterns, sequences of advertising interactions, and user behaviour
-    across domains.
+    architecture for cross-domain recommendation.

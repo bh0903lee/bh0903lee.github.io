@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-subtitle: A summary. The full CV is available as a PDF.
+subtitle: Education, appointments and professional activities.
 permalink: /cv/
 description: Curriculum vitae of Byounghwa Lee - education, appointments, teaching, service and awards.
 ---
@@ -78,7 +78,7 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
 
 ## Professional service
 
-Journal reviewing, confirmed by completion records:
+Peer review for selected journals:
 
 <div class="rows">
   {% for r in site.data.service.reviewing %}

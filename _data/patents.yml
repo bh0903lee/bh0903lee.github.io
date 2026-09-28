@@ -3,6 +3,7 @@
 # T01 prosecution discontinuation follows the latest personal CV record.
 
 - key: T01
+  topic: Constrained network generation
   title: Apparatus and method for generating networks using complex network metrics
   assignee: ETRI
   filed: KR 10-2022-0001721 (5 Jan 2022)
@@ -19,6 +20,7 @@
     status: Published application; prosecution discontinued (2026)
     url: https://patents.google.com/patent/US20230214672A1/en
 - key: T02
+  topic: Time-series pattern prediction
   title: Apparatus for time-series pattern prediction and method of operating the same
   assignee: ETRI
   filed: KR 10-2023-0101823 (3 Aug 2023)
@@ -32,6 +34,7 @@
     status: Pending application
     url: https://patents.google.com/patent/US20250045571A1/en
 - key: T03
+  topic: Event-cluster-based forecasting
   title: Event-cluster-based time-series prediction apparatus and method of operating the same
   assignee: ETRI
   filed: KR 10-2024-0055564 (25 Apr 2024)
@@ -39,6 +42,7 @@
   status_text: Pending
   note: Event clusters as a predictive representation.
 - key: T04
+  topic: Multimodal cognitive assessment
   title: Method and apparatus for predicting degenerative brain function decline and cognitive impairment
     using a vision-language model and a graph neural network
   assignee: ETRI
@@ -57,6 +61,7 @@
     status: Published application
     url: https://patents.google.com/patent/US20250316388A1/en
 - key: T05
+  topic: Multimodal models for neurological disorders
   title: Method and apparatus for building a multimodal foundation model for predicting diverse neurological
     disorders
   assignee: ETRI
@@ -65,6 +70,7 @@
   status_text: Pending
   note: Joint representation and multi-task learning across language-based disorders.
 - key: T06
+  topic: Advertising engagement prediction
   title: Electronic apparatus and control method thereof
   assignee: Samsung Electronics
   filed: KR 10-2021-0004603 (13 Jan 2021)

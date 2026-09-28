@@ -6,8 +6,10 @@ permalink: /projects/
 description: Applied research and patents of Byounghwa Lee at ETRI and Samsung Research.
 ---
 
-Selected research activities and my technical contributions, from model design
-and evaluation to integration and deployment.
+Selected research and development projects at ETRI and Samsung Research.
+Graduate research is described under
+[Research]({{ '/research/' | relative_url }}) and
+[Publications]({{ '/publications/' | relative_url }}).
 
 ## Research and applications
 
@@ -23,7 +25,7 @@ and evaluation to integration and deployment.
 ## Technology transfer
 
 <div class="card">
-  <h3>Korean speech-based screening model for mild cognitive impairment</h3>
+  <h3>Korean speech-based classification model for mild cognitive impairment</h3>
   <p class="card-meta">ETRI &middot; 2025</p>
   <p class="card-role"><strong>Role:</strong> Lead developer</p>
   <p>
@@ -34,39 +36,36 @@ and evaluation to integration and deployment.
 
 ## Patents
 
-Invention families in which I am the first inventor, as of September 2026.
+Status as of September 2026.
+
+<h3 class="patent-group-title">First-inventor patent families</h3>
 
 {% for pt in site.data.patents %}
-<div class="card">
-  <h3>{{ pt.title }}</h3>
-  <p class="card-meta">
-    {{ pt.assignee }} &middot; Filed {{ pt.filed }}
-    <span class="status status-{{ pt.status }}">{{ pt.status_text }}</span>
-  </p>
-  {%- if pt.note %}<p>{{ pt.note }}</p>{% endif %}
+<article class="patent-card">
+  <h4 class="patent-heading">{{ pt.topic | escape }}</h4>
+  <p class="patent-assignee">{{ pt.assignee }}</p>
+  {% include patent-record.html country="South Korea" title=pt.title application=pt.filed status=pt.status_text links=pt.links %}
   {%- if pt.us %}
-  <div class="patent-us">
-    <p class="patent-jurisdiction">U.S. application</p>
-    <p class="pub-title"><a href="{{ pt.us.url }}" rel="noopener">{{ pt.us.title | escape }}</a></p>
-    <p class="card-meta">{{ pt.us.application }} &middot; {{ pt.us.publication }}</p>
-    <p class="card-role">{{ pt.us.status }}</p>
-  </div>
+  {% include patent-record.html country="United States" title=pt.us.title application=pt.us.application publication=pt.us.publication url=pt.us.url status=pt.us.status %}
   {%- endif %}
   {%- if pt.family %}
-  <p class="card-role">Family: {% for f in pt.family %}{{ f }}{% unless forloop.last %}; {% endunless %}{% endfor %}</p>
+  <div class="patent-record">
+    <p class="patent-country">International</p>
+    <div class="patent-details">
+      <dl class="patent-facts">
+        <div><dt>PCT</dt><dd>{% for f in pt.family %}{{ f | escape }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</dd></div>
+      </dl>
+    </div>
+  </div>
   {%- endif %}
-  {%- if pt.links %}
-  <p class="card-links">{% for l in pt.links %}<a href="{{ l.url }}" rel="noopener">{{ l.name }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
-  {%- endif %}
-</div>
+</article>
 {% endfor %}
 
-<p>Additional U.S. applications as co-inventor:</p>
-<ul class="research-papers">
+<h3 class="patent-group-title">Additional U.S. applications as co-inventor</h3>
+
 {% for pt in site.data.us_co_inventions %}
-  <li>
-    <strong><a href="{{ pt.url }}" rel="noopener">{{ pt.title | escape }}</a></strong>
-    <span class="research-paper-meta">{{ pt.application }} &middot; {{ pt.publication }} &middot; {{ pt.role }} &middot; {{ pt.status }}</span>
-  </li>
+<article class="patent-card">
+  <h4 class="patent-heading">{{ pt.topic | escape }}</h4>
+  {% include patent-record.html country="United States" title=pt.title application=pt.application publication=pt.publication url=pt.url status=pt.status %}
+</article>
 {% endfor %}
-</ul>

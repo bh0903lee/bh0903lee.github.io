@@ -3,13 +3,25 @@ layout: page
 title: Research
 subtitle: Temporal and relational structure in complex data.
 permalink: /research/
-description: Research by Byounghwa Lee on multimodal cognitive assessment, temporal dynamics, complex networks, industrial machine learning, and scientific representations.
+description: Research by Byounghwa Lee on scientific representation learning, multimodal cognitive assessment, temporal dynamics, complex networks, and industrial machine learning.
 ---
 
-I use temporal and relational structure to model complex data. My work spans
-statistical physics, industrial machine learning and multimodal cognitive
-assessment. My current focus is science-specific encoders and tokenizers,
-with applications to drug discovery.
+My research examines how temporal patterns and relationships in data can inform
+predictive models. It connects statistical physics with machine learning across
+scientific, clinical and industrial applications.
+
+## Current work and direction
+
+I am developing science-specific encoders and tokenizers to represent
+scientific data for modelling and prediction. Drug discovery is a current
+application: I use protein–ligand binding-affinity models to study how sequence
+and three-dimensional information can be combined. I examine how representation
+choices and similarities between training and test data affect predictive
+performance.
+
+My next direction is to turn these models into research tools with defined
+inputs, reproducible evaluation and researcher review. I also continue to
+explore temporal point processes and constrained graph generation.
 
 ## Research themes
 
@@ -53,45 +65,26 @@ with applications to drug discovery.
 
 ## Industrial machine learning
 
-At Samsung Research, I developed demand and material-order forecasting models
-and evaluated order predictions through inventory simulations, including
-overstock and shortages. I led the development of a self-attention
-model for multi-touch advertising attribution and designed a self-supervised
-architecture for cross-domain recommendation. These applications involved
-modelling demand over time, sequences of advertising interactions, and user
-behaviour across domains.
+At Samsung Research, I worked on forecasting, advertising attribution and
+cross-domain recommendation. These problems involved learning from demand
+patterns, sequences of advertising interactions and user behaviour across
+domains. In inventory research, I evaluated forecasts through their effects on
+simulated ordering and stock levels, connecting model evaluation with the
+decisions the predictions support.
 
 ## Collaboration and deployment
 
-In clinical collaborations, I developed models and analysed treatment choices
-with domain specialists. Other collaborations explored predictive coding for
+In clinical collaborations, I developed models with domain specialists to
+analyse observed treatment choices. Other collaborations explored predictive coding for
 recognition with limited or imbalanced data and classifiers that accommodate
 new features.
 
-I also developed a Korean speech-based model for mild cognitive impairment
-and contributed to field deployment and technology transfer. For an interactive
-assessment system, I worked on real-time speech processing and model–server
-integration.
-
 {% include research-papers.html keys="P05,P06,P04" %}
 
-## Current work and direction
-
-I am developing science-specific encoders and tokenizers to represent
-scientific data for modelling and prediction. Drug discovery is a current
-application: I use protein–ligand binding-affinity models to study how sequence
-and three-dimensional information can be combined. This work also examines
-data meaning, dataset splits and similarity controls to evaluate the
-representations.
-
-My next direction is to turn these models into research tools with defined
-inputs, reproducible evaluation and researcher review. I also continue to
-explore temporal point processes and constrained graph generation.
-
-## Background
-
-Ph.D. in physics at POSTECH, advised by Woo-Sung Jung and Hang-Hyun Jo;
-thesis *Generative Model and Method for Correlated Bursty Dynamics*.
+My applied work also includes a Korean speech-based model for mild cognitive
+impairment, with contributions to field deployment and technology transfer.
+Details of my development roles are listed under
+[Projects]({{ '/projects/' | relative_url }}).
 
 See also: [Publications]({{ '/publications/' | relative_url }}) &middot;
-[Projects and patents]({{ '/projects/' | relative_url }})
+[CV]({{ '/cv/' | relative_url }})

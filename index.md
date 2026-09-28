@@ -30,20 +30,15 @@ I study temporal and relational structure in data, drawing on statistical
 physics and machine learning. My work spans bursty event sequences, complex
 networks, and multimodal cognitive assessment using images, language and speech.
 
-At Samsung Research, I applied machine learning to demand forecasting,
-inventory optimisation, advertising attribution and cross-domain recommendation.
 My current work focuses on science-specific encoders and tokenizers,
-with applications to drug discovery. I aim to develop scientific prediction tools that
-combine clear data requirements, reproducible evaluation and researcher review.
+with applications to drug discovery. Previously, at Samsung Research, I worked
+on forecasting, advertising attribution and recommendation.
 
 <ul class="keywords">
-  <li>Multimodal learning</li>
-  <li>Speech-language cognitive assessment</li>
-  <li>Graph learning</li>
-  <li>Temporal point processes</li>
-  <li>Burstiness and memory</li>
-  <li>Complex networks</li>
   <li>Scientific representation learning</li>
+  <li>Multimodal cognitive assessment</li>
+  <li>Temporal point processes</li>
+  <li>Complex networks</li>
 </ul>
 
 [Read more about my research →]({{ '/research/' | relative_url }})
@@ -55,15 +50,6 @@ combine clear data requirements, reproducible evaluation and researcher review.
 
 [View all publications →]({{ '/publications/' | relative_url }})
 
-## News
-
-<ul class="news">
-  <li>
-    <time datetime="2025">2025</time>
-    <p>Selected as an IEEE Access Exceptional Reviewer.</p>
-  </li>
-</ul>
-
 ## Contact
 
 <div class="rows">
@@ -72,13 +58,6 @@ combine clear data requirements, reproducible evaluation and researcher review.
     <div class="row-what">
       <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
       <p class="sub"><a href="mailto:{{ site.author.email_alt }}">{{ site.author.email_alt }}</a></p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="row-when">Address</div>
-    <div class="row-what">
-      <p>{{ site.author.affiliation }}</p>
-      <p class="sub">{{ site.author.location }}</p>
     </div>
   </div>
   <div class="row">

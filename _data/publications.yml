@@ -117,7 +117,7 @@
   role: Co-author
   summary: >-
     Applies predictive-coding learning to incremental, long-tailed and
-    few-shot recognition, where backpropagation-trained networks struggle.
+    few-shot recognition, with comparisons against backpropagation-based learning.
 
 - key: P07
   title: "Copula-based algorithm for generating bursty time series"
@@ -135,7 +135,7 @@
   summary: >-
     Uses a Farlie-Gumbel-Morgenstern copula to generate event sequences with a
     prescribed inter-event time distribution and a prescribed memory
-    coefficient, controlling the two independently.
+    coefficient within the correlation range allowed by the construction.
 
 - key: P08
   title: "Hierarchical burst model for complex bursty dynamics"

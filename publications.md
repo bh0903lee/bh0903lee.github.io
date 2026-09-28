@@ -6,7 +6,7 @@ permalink: /publications/
 description: Peer-reviewed publications of Byounghwa Lee.
 ---
 
-Names in **bold** are mine; the list is also available on
+My name appears in **bold**. Publications are also listed on
 [Google Scholar]({{ site.links[0].url }}) and
 [ORCID]({{ site.links[1].url }}).
 

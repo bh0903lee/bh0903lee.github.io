@@ -228,7 +228,7 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
   white-space: nowrap;
 }
 
-/* Cards: projects and patents */
+/* Project cards */
 .card {
   padding: 1rem 0 1.1rem;
   border-bottom: 1px solid var(--rule);
@@ -239,12 +239,20 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
 .card-role { margin: 0 0 .5rem; font-size: .92rem; color: var(--text-soft); }
 .card p:last-child { margin-bottom: 0; }
 .card-links { font-size: .86rem; }
-.patent-us { margin: .8rem 0; padding: .7rem .85rem; border-left: 3px solid var(--accent); background: var(--bg-soft); }
-.patent-jurisdiction { margin: 0 0 .25rem; font-size: .8rem; font-weight: 600; color: var(--accent); }
 
-.status { display: inline-block; padding: .05rem .45rem; border-radius: 3px; font-size: .78rem; font-weight: 600; }
-.status-granted { background: var(--accent-bg); color: var(--accent); }
-.status-pending { background: var(--bg-soft); color: var(--text-dim); }
+/* Patent families: country records share the same hierarchy and typography. */
+.patent-group-title { margin: 1.8rem 0 .35rem; color: var(--text-soft); }
+.patent-card { padding: 1.2rem 0 1.4rem; border-bottom: 1px solid var(--rule); }
+.patent-heading { margin: 0 0 .2rem; font-size: 1.02rem; line-height: 1.4; font-weight: 650; }
+.patent-assignee { margin: 0; font-size: .88rem; color: var(--text-soft); }
+.patent-record { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1rem; margin-top: 1rem; }
+.patent-country { margin: .1rem 0 0; font-size: .82rem; font-weight: 600; color: var(--text-soft); }
+.patent-details { min-width: 0; }
+.patent-title { margin: 0 0 .5rem; font-size: .95rem; line-height: 1.5; font-weight: 500; }
+.patent-facts { margin: 0; font-size: .86rem; line-height: 1.6; }
+.patent-facts > div { display: grid; grid-template-columns: 5.8rem minmax(0, 1fr); gap: .65rem; margin-top: .15rem; }
+.patent-facts dt { color: var(--text-soft); }
+.patent-facts dd { margin: 0; overflow-wrap: anywhere; }
 
 /* Definition-style rows */
 .rows { margin: 0; }
@@ -290,6 +298,7 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
   .news time { flex-basis: auto; }
   .row { flex-direction: column; gap: .15rem; }
   .row-when { flex-basis: auto; }
+  .patent-record { grid-template-columns: minmax(0, 1fr); gap: .35rem; }
 }
 
 @media print {
