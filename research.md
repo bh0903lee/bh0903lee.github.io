@@ -7,8 +7,11 @@ description: Research by Byounghwa Lee on scientific representation learning, mu
 ---
 
 My research examines how temporal patterns and relationships in data can inform
-predictive models. It connects statistical physics with machine learning across
-scientific, clinical and industrial applications.
+predictive models, connecting statistical physics with machine learning across
+scientific, clinical, and industrial applications. A recurring question runs
+through this work: when does structural information improve a model, and when do
+explicit computation and search remain necessary for reliable prediction and
+generation?
 
 ## Current work
 

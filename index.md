@@ -21,15 +21,21 @@ featured_publications: [P01, P02, P03]
   </div>
 </div>
 
-Trained in physics at POSTECH, I worked at Samsung Research before joining
-ETRI in 2021.
+I am a Senior Researcher at the Electronics and Telecommunications Research
+Institute (ETRI). I received my B.S. (2012) and Ph.D. (2019) in physics from
+Pohang University of Science and Technology (POSTECH), where my doctoral work
+addressed the statistical physics of complex systems. Before joining ETRI in
+2021, I was a Staff Engineer at Samsung Research, Samsung Electronics.
 
-My research draws on statistical physics and machine learning to study temporal
-and relational structure in data. It spans bursty event sequences, complex
-networks, and multimodal cognitive assessment using images, language and speech.
+My research combines statistical physics and machine learning to study the
+temporal and relational structure of data, spanning bursty event sequences,
+complex networks, and multimodal cognitive assessment across images, language,
+and speech. A recurring question runs through this work: when does structural
+information improve a model, and when do explicit computation and search remain
+necessary for reliable prediction and generation?
 
-Current projects focus on science-specific encoders and tokenizers,
-with applications to drug discovery.
+My current work develops science-specific encoders and tokenizers, with
+applications to drug discovery.
 
 <ul class="keywords">
   <li>Scientific representation learning</li>

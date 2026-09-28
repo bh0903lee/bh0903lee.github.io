@@ -17,14 +17,14 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
 
 <div class="rows">
   <div class="row">
-    <div class="row-when">2021 – present</div>
+    <div class="row-when">Aug 2021 – present</div>
     <div class="row-what">
       <p><strong>Senior Researcher</strong>, Electronics and Telecommunications Research Institute (ETRI)</p>
-      <p class="sub">Integrated Intelligence Research Section (2024 – present) · Cyber Brain Research Section (2021 – 2023)</p>
+      <p class="sub">Integrated Intelligence Research Section (Jan 2024 – present) · Cyber Brain Research Section (Aug 2021 – Dec 2023)</p>
     </div>
   </div>
   <div class="row">
-    <div class="row-when">2019 – 2021</div>
+    <div class="row-when">Mar 2019 – Jul 2021</div>
     <div class="row-what">
       <p><strong>Staff Engineer</strong>, Samsung Research, Samsung Electronics</p>
       <p class="sub">Global AI Center, Big Data Team, Data Analytics Lab</p>
@@ -36,7 +36,7 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
 
 <div class="rows">
   <div class="row">
-    <div class="row-when">2012 – 2019</div>
+    <div class="row-when">Mar 2012 – Feb 2019</div>
     <div class="row-what">
       <p><strong>Ph.D. in Physics</strong>, POSTECH (integrated M.S./Ph.D. program)</p>
       <p class="sub">Statistical physics and complex systems. Advisors: Woo-Sung Jung, Hang-Hyun Jo</p>
@@ -44,9 +44,16 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
     </div>
   </div>
   <div class="row">
-    <div class="row-when">2007 – 2012</div>
+    <div class="row-when">Mar 2007 – Feb 2012</div>
     <div class="row-what">
       <p><strong>B.S. in Physics</strong>, POSTECH</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="row-when">Mar 2005 – Feb 2007</div>
+    <div class="row-what">
+      <p><strong>Incheon Science High School</strong></p>
+      <p class="sub">Graduated early after two years</p>
     </div>
   </div>
 </div>
