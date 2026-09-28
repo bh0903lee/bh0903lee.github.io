@@ -71,6 +71,8 @@ kramdown:
   input: GFM
   hard_wrap: false
 permalink: pretty
+plugins:
+  - jekyll-sitemap
 exclude:
   - README.md
   - DEPLOY.md

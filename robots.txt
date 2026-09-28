@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bh0903lee.github.io/sitemap.xml
