@@ -1,46 +1,44 @@
-# Research programs and industrial projects. Described at the level of role and
-# technical contribution; budgets and internal project numbers are not listed.
+# Research areas and industrial applications, described through personal
+# contributions rather than formal program titles or internal identifiers.
 
-- name: "AI for Science - ETRI Strategic Research Program"
+- name: Scientific representations and protein–ligand modelling
   org: ETRI
   period: "2026 - present"
-  my_period: "Jan 2026 - present"
-  role: >-
-    Sequence encoders and tokenizers for scientific data; protein-ligand
-    representation learning
+  my_period: "2026 - present"
+  role: Scientific sequence encoding, interaction modelling and evaluation
   current: true
   description: >-
-    A strategic program on foundation models for scientific domains, running
-    2026-2030 with ETRI as the lead institution. I work on sequence encoders
-    and tokenizers designed for scientific data rather than natural language.
-    Protein-ligand representation and binding models (NewDrug) are carried out
-    within the same program as the empirical case for that work, together with
-    the data splitting and evaluation pipeline used to assess it. I also took
-    part in planning the follow-on program.
+    I develop sequence encoders for scientific data and protein–ligand
+    binding-affinity models using pretrained representations and 3D interaction
+    features. My work includes checking measurement types and units, constructing
+    model inputs, and evaluating under protein and ligand similarity controls.
+    These studies examine how representation choices and data conditions affect
+    predictive performance.
 
-- name: "AI-based assessment of degenerative brain function decline from everyday speech"
-  org: "National Research Council of Science & Technology (NST), Creative Convergence Research Program"
-  period: "Sep 2021 - Aug 2026"
+- name: Speech and multimodal learning for cognitive assessment
+  org: ETRI
+  period: "Jan 2024 - Aug 2026"
   my_period: "Jan 2024 - Aug 2026"
-  role: "Cognitive function analysis and assessment (ETRI subproject)"
+  role: Cognitive modelling, field deployment and model integration
   description: >-
-    A five-institution program on assessing cognitive decline from everyday
-    speech. In the ETRI subproject on speech recognition, cognitive function
-    analysis and conversational training, I developed the Korean speech-based
-    MCI classification model, ran it in field deployment, and built the
-    multimodal recognition methods published in Scientific Reports.
+    I developed graph-based and multimodal methods for Alzheimer's disease
+    classification from picture-description speech. In applied work, I developed
+    a Korean speech-based model for mild cognitive impairment as its primary
+    developer and contributed to field deployment and technology transfer. I also
+    worked on real-time speech processing, session handling and server
+    integration for an interactive assessment system.
 
-- name: "Autonomous growth complex AI core technology"
-  org: "ETRI Basic Research Program (Ministry of Science and ICT)"
-  period: "2020 - 2025"
+- name: Event-sequence learning and collaborative machine learning
+  org: ETRI
+  period: "Aug 2021 - Dec 2023"
   my_period: "Aug 2021 - Dec 2023"
-  role: Event-sequence learning and applied ML collaborations
+  role: Temporal modelling, model development and analysis
   description: >-
-    Core-technology program on self-adaptive AI. I worked on burst- and
-    memory-aware temporal point processes, contributed to latent-variable
-    classifiers for dynamic environments, and took part in clinical
-    collaborations with Ajou University Hospital, EvidNet and Seoul National
-    University Hospital.
+    I developed burst- and memory-aware temporal point-process models and
+    contributed to classifiers for dynamic environments. Clinical collaborations
+    involved model development and analysis with domain specialists, including
+    work on treatment-choice interpretation using clinical and socioeconomic
+    data.
 
 - name: Industrial machine learning at Samsung Research
   org: "Samsung Electronics, Samsung Research (Global AI Center)"
@@ -48,7 +46,10 @@
   my_period: "Mar 2019 - Jul 2021"
   role: Staff Engineer
   description: >-
-    Three lines of applied work: demand and inventory optimisation with
-    simulation-based evaluation; a self-attention multi-touch advertising
-    attribution model, which I led; and a self-supervised architecture for
-    cross-domain recommendation.
+    I developed demand and material-order forecasting models and evaluated
+    order predictions through inventory simulations, including overstock and
+    shortages. I led development of a self-attention model for
+    multi-touch advertising attribution, and designed a self-supervised
+    architecture for cross-domain recommendation. The work addressed temporal
+    demand patterns, sequences of advertising interactions, and user behaviour
+    across domains.

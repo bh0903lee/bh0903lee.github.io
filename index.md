@@ -23,19 +23,18 @@ featured_publications: [P01, P02, P03]
 
 I am a Senior Researcher at the Electronics and Telecommunications Research
 Institute (ETRI) in Daejeon, Korea. I received my B.S. and Ph.D. in physics from
-POSTECH in 2012 and 2019, where I studied correlated bursty dynamics and complex
-networks, and I was a Staff Engineer at Samsung Research before joining ETRI in
-2021.
+POSTECH and worked as a Staff Engineer at Samsung Research before joining ETRI
+in 2021.
 
-My research connects complex systems with machine learning, with a focus on
-multimodal learning for cognitive assessment and the modelling of bursty event
-sequences. In two 2025 papers in *Scientific Reports*, I developed graph-based
-and multimodal approaches to Alzheimer's disease recognition from
-picture-description speech, linking visual context with language and audio.
-My work on temporal dynamics spans generative models in *Physical Review E*
-and the Burst and Memory-aware Transformer for event-time prediction in
-*Frontiers in Computational Neuroscience*. Earlier work in *Physica A*
-examined the structure of urban street networks.
+I study temporal and relational structure in data, drawing on statistical
+physics and machine learning. My work spans bursty event sequences, complex
+networks, and multimodal cognitive assessment using images, language and speech.
+
+At Samsung Research, I applied machine learning to demand forecasting,
+inventory optimisation, advertising attribution and cross-domain recommendation.
+My current work focuses on scientific sequence modelling and protein–ligand
+binding-affinity prediction. I aim to develop scientific prediction tools that
+combine clear data requirements, reproducible evaluation and researcher review.
 
 <ul class="keywords">
   <li>Multimodal learning</li>
@@ -44,20 +43,15 @@ examined the structure of urban street networks.
   <li>Temporal point processes</li>
   <li>Burstiness and memory</li>
   <li>Complex networks</li>
+  <li>Protein–ligand modelling</li>
 </ul>
 
 [Read more about my research →]({{ '/research/' | relative_url }})
 
 ## Selected publications
 
-Recent journal papers as first and corresponding author.
-
-<ol class="pub-list">
-{% for key in page.featured_publications %}
-{% assign paper = site.data.publications | where: "key", key | first %}
-{% include publication.html pub=paper %}
-{% endfor %}
-</ol>
+{% assign featured_keys = page.featured_publications | join: "," %}
+{% include research-papers.html keys=featured_keys %}
 
 [View all publications →]({{ '/publications/' | relative_url }})
 
@@ -65,25 +59,8 @@ Recent journal papers as first and corresponding author.
 
 <ul class="news">
   <li>
-    <time datetime="2025-08">Aug 2025</time>
-    <p><em>Multimodal Alzheimer's disease recognition from image, text and
-    audio</em> published in <em>Scientific Reports</em>.</p>
-  </li>
-  <li>
     <time datetime="2025">2025</time>
     <p>Selected as an IEEE Access Exceptional Reviewer.</p>
-  </li>
-  <li>
-    <time datetime="2025-01">Jan 2025</time>
-    <p><em>Alzheimer's disease recognition using graph neural network by
-    leveraging image-text similarity from vision language model</em> published
-    in <em>Scientific Reports</em>.</p>
-  </li>
-  <li>
-    <time datetime="2023-12">Dec 2023</time>
-    <p><em>Burst and Memory-aware Transformer: capturing temporal
-    heterogeneity</em> published in <em>Frontiers in Computational
-    Neuroscience</em>.</p>
   </li>
 </ul>
 

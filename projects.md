@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Projects
-subtitle: Research programs I have worked on, and the invention families that came out of them.
+subtitle: Applied research, technical contributions, and patents.
 permalink: /projects/
-description: Research programs and patents of Byounghwa Lee at ETRI and Samsung Research.
+description: Applied research and patents of Byounghwa Lee at ETRI and Samsung Research.
 ---
 
-Each entry describes my own role and technical contribution within a programme
-run by teams and institutions.
+Selected research activities and my technical contributions, from model design
+and evaluation to integration and deployment.
 
-## Research programs
+## Research and applications
 
 {% for pr in site.data.projects %}
 <div class="card">
@@ -27,8 +27,8 @@ run by teams and institutions.
   <p class="card-meta">ETRI &middot; 2025</p>
   <p class="card-role"><strong>Role:</strong> Lead developer</p>
   <p>
-    The classification model I developed for Korean spontaneous speech was
-    transferred out of ETRI following field deployment.
+    I developed the Korean speech-based classification model and contributed
+    to its field deployment and technology transfer.
   </p>
 </div>
 
