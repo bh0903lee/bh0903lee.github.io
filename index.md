@@ -32,8 +32,8 @@ networks, and multimodal cognitive assessment using images, language and speech.
 
 At Samsung Research, I applied machine learning to demand forecasting,
 inventory optimisation, advertising attribution and cross-domain recommendation.
-My current work focuses on scientific sequence modelling and protein–ligand
-binding-affinity prediction. I aim to develop scientific prediction tools that
+My current work focuses on science-specific encoders and tokenizers,
+with applications to drug discovery. I aim to develop scientific prediction tools that
 combine clear data requirements, reproducible evaluation and researcher review.
 
 <ul class="keywords">
@@ -43,7 +43,7 @@ combine clear data requirements, reproducible evaluation and researcher review.
   <li>Temporal point processes</li>
   <li>Burstiness and memory</li>
   <li>Complex networks</li>
-  <li>Protein–ligand modelling</li>
+  <li>Scientific representation learning</li>
 </ul>
 
 [Read more about my research →]({{ '/research/' | relative_url }})

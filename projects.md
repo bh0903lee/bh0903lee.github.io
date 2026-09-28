@@ -44,6 +44,14 @@ Invention families in which I am the first inventor, as of September 2026.
     <span class="status status-{{ pt.status }}">{{ pt.status_text }}</span>
   </p>
   {%- if pt.note %}<p>{{ pt.note }}</p>{% endif %}
+  {%- if pt.us %}
+  <div class="patent-us">
+    <p class="patent-jurisdiction">U.S. application</p>
+    <p class="pub-title"><a href="{{ pt.us.url }}" rel="noopener">{{ pt.us.title | escape }}</a></p>
+    <p class="card-meta">{{ pt.us.application }} &middot; {{ pt.us.publication }}</p>
+    <p class="card-role">{{ pt.us.status }}</p>
+  </div>
+  {%- endif %}
   {%- if pt.family %}
   <p class="card-role">Family: {% for f in pt.family %}{{ f }}{% unless forloop.last %}; {% endunless %}{% endfor %}</p>
   {%- endif %}
@@ -53,6 +61,12 @@ Invention families in which I am the first inventor, as of September 2026.
 </div>
 {% endfor %}
 
-<p class="foot-meta">
-  I am also a co-inventor on further filings led by others.
-</p>
+<p>Additional U.S. applications as co-inventor:</p>
+<ul class="research-papers">
+{% for pt in site.data.us_co_inventions %}
+  <li>
+    <strong><a href="{{ pt.url }}" rel="noopener">{{ pt.title | escape }}</a></strong>
+    <span class="research-paper-meta">{{ pt.application }} &middot; {{ pt.publication }} &middot; {{ pt.role }} &middot; {{ pt.status }}</span>
+  </li>
+{% endfor %}
+</ul>

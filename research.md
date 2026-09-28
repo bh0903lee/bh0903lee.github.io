@@ -8,8 +8,8 @@ description: Research by Byounghwa Lee on multimodal cognitive assessment, tempo
 
 I use temporal and relational structure to model complex data. My work spans
 statistical physics, industrial machine learning and multimodal cognitive
-assessment. I currently apply this approach to scientific sequence modelling
-and protein–ligand binding-affinity prediction.
+assessment. My current focus is science-specific encoders and tokenizers,
+with applications to drug discovery.
 
 ## Research themes
 
@@ -77,10 +77,12 @@ integration.
 
 ## Current work and direction
 
-I am developing scientific sequence encoders and protein–ligand binding-affinity
-models using pretrained representations and three-dimensional interaction
-features. I examine measurement types and units, dataset splits, and molecular
-similarity to distinguish modelling gains from evaluation effects.
+I am developing science-specific encoders and tokenizers to represent
+scientific data for modelling and prediction. Drug discovery is a current
+application: I use protein–ligand binding-affinity models to study how sequence
+and three-dimensional information can be combined. This work also examines
+data meaning, dataset splits and similarity controls to evaluate the
+representations.
 
 My next direction is to turn these models into research tools with defined
 inputs, reproducible evaluation and researcher review. I also continue to

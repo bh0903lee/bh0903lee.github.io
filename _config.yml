@@ -6,7 +6,8 @@ tagline: Senior Researcher, ETRI
 description: >-
   Byounghwa Lee is a Senior Researcher at ETRI. His research connects complex
   systems with machine learning: multimodal cognitive assessment, temporal
-  point processes, bursty dynamics, complex networks, and scientific representations.
+  point processes, complex networks, and scientific encoders and tokenizers
+  for drug discovery.
 url: "https://bh0903lee.github.io"
 baseurl: ""
 lang: en

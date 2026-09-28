@@ -1,19 +1,20 @@
 # Research areas and industrial applications, described through personal
 # contributions rather than formal program titles or internal identifiers.
 
-- name: Scientific representations and protein–ligand modelling
+- name: Science-specific encoders and tokenizers for drug discovery
   org: ETRI
   period: "2026 - present"
   my_period: "2026 - present"
-  role: Scientific sequence encoding, interaction modelling and evaluation
+  role: Scientific representation learning, tokenizer design and evaluation
   current: true
   description: >-
-    I develop sequence encoders for scientific data and protein–ligand
-    binding-affinity models using pretrained representations and 3D interaction
-    features. My work includes checking measurement types and units, constructing
-    model inputs, and evaluating under protein and ligand similarity controls.
-    These studies examine how representation choices and data conditions affect
-    predictive performance.
+    I develop science-specific encoders and tokenizers, with applications to
+    drug discovery. The work focuses on representing scientific data in forms
+    suited to downstream modelling and prediction. Protein–ligand
+    binding-affinity modelling provides a concrete setting for testing how
+    sequence representations and 3D interaction features can be combined. I
+    also examine measurement types, units and similarity-controlled data splits
+    to evaluate the resulting representations.
 
 - name: Speech and multimodal learning for cognitive assessment
   org: ETRI
