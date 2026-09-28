@@ -10,20 +10,42 @@ My research examines how temporal patterns and relationships in data can inform
 predictive models. It connects statistical physics with machine learning across
 scientific, clinical and industrial applications.
 
-## Current work and direction
+## Current work
 
-I am developing science-specific encoders and tokenizers to represent
-scientific data for modelling and prediction. Drug discovery is a current
-application: I use protein–ligand binding-affinity models to study how sequence
-and three-dimensional information can be combined. I examine how representation
-choices and similarities between training and test data affect predictive
-performance.
+<div class="theme">
+  <h3>Scientific representation learning for drug discovery</h3>
+  <p>
+    I develop science-specific encoders and tokenizers, using protein–ligand
+    binding-affinity prediction to study how sequence and three-dimensional
+    information can be combined. I evaluate these representations under
+    similarity-controlled data splits to assess generalization beyond closely
+    related proteins and molecules.
+  </p>
+</div>
 
-My next direction is to turn these models into research tools with defined
-inputs, reproducible evaluation and researcher review. I also continue to
-explore temporal point processes and constrained graph generation.
+<div class="theme">
+  <h3>Temporal point processes and burst structure</h3>
+  <p>
+    I develop temporal point processes that predict event-time distributions
+    and test when explicit burst-history features improve prediction.
+    Controlled experiments separate burstiness from dependence between
+    successive event intervals to identify the source of predictive gains,
+    while validation guides whether to use the added features on real data.
+  </p>
+</div>
 
-## Research themes
+<div class="theme">
+  <h3>Graph generation under structural constraints</h3>
+  <p>
+    I study graph generation that satisfies multiple structural constraints
+    simultaneously while preserving each node's degree. By comparing learned
+    rewiring policies with search that explicitly evaluates candidate edits,
+    I investigate when local information can predict an edit's global effects
+    and when direct evaluation remains necessary.
+  </p>
+</div>
+
+## Selected research contributions
 
 <div class="theme">
   <h3>1. Multimodal learning for cognitive assessment</h3>
