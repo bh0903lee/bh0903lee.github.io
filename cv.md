@@ -173,11 +173,6 @@ Status as of September 2026. Within each section, entries are ordered by filing 
   {% endfor %}
 </div>
 
-Courses I am prepared to teach, which I have not yet taught as instructor:
-machine learning, deep learning and representation learning, graph and
-network data analysis, and AI for science (representation and validation of
-scientific data).
-
 ## Selected peer review
 
 <div class="rows">
