@@ -26,14 +26,15 @@ that predict, generate and explain. The work spans four connected areas:
 
 <figure class="figure">
   <a href="{{ '/assets/img/research-overview.svg' | relative_url }}" target="_blank" rel="noopener" title="Open full-size figure">
-    <img src="{{ '/assets/img/research-overview.svg' | relative_url }}" width="1280" height="716" alt="Overview of research threads: healthcare AI, bursty dynamics and complex networks lead to multimodal cognitive assessment, event-sequence learning and constrained graph generation, and converge on AI for science.">
+    <img src="{{ '/assets/img/research-overview.svg' | relative_url }}" width="1280" height="716" alt="Overview of research threads: healthcare AI, bursty dynamics and complex networks lead to multimodal cognitive assessment, event-sequence learning and constrained graph generation, whose methods and perspective carry into the current AI-for-science work.">
   </a>
   <figcaption>
     How the threads connect. Healthcare AI, bursty dynamics and complex
     networks lead to multimodal cognitive assessment, event-sequence learning
-    and constrained graph generation, and converge on representation learning
-    for scientific data. Colours mark where the work was done; dashed boxes
-    are ongoing. Click to open at full size.
+    and constrained graph generation. The current work on representation
+    learning for scientific data builds on the methods and perspective of all
+    three threads rather than merging them directly. Colours mark where the
+    work was done; dashed boxes are ongoing. Click to open at full size.
   </figcaption>
 </figure>
 
@@ -163,12 +164,19 @@ computation is needed to tell competing scientific explanations apart. It
 rests on the two foundations above: generative models of bursty dynamics
 leading to event-sequence learning, and complex-network analysis leading to
 graph learning under structural constraints. Over the next two to three years
-I plan to build controlled benchmarks that identify which temporal statistics
-a sequence model needs, to develop constraint-aware graph generation that
-combines learning with explicit evaluation, and to extend both toward
-representation learning that preserves the large-scale dynamics of scientific
-systems, with cost-aware sequential experimental design as a longer-term goal.
-This is a plan for the coming years rather than completed work.
+I plan to pursue it in three stages.
+
+- **Near term: temporal statistics and constraint-aware graph learning.**
+  Controlled benchmarks that identify which temporal statistics a sequence
+  model needs, and constraint-aware graph generation that combines learning
+  with explicit evaluation. Both continue the manuscripts now under review.
+- **Bridging goal: representation learning for scientific data.** Extending
+  both lines toward representations that preserve the large-scale dynamics of
+  scientific systems, connected to the drug-discovery work under Current work.
+- **Longer term: cost-aware sequential experimental design.** Choosing which
+  observation or computation to make next when each is costly, so that models
+  help tell competing explanations apart rather than only fit the data at
+  hand.
 
 ## Industrial machine learning
 

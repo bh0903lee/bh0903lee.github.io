@@ -72,8 +72,7 @@
   finding: >-
     Burst and memory statistics improved next-event time prediction mainly
     where temporal heterogeneity was strong; against a matched ablation the
-    gain held on all but one of the real-world datasets, so the paper does
-    not claim a uniform advantage.
+    gain held on all but one of the real-world datasets.
 
 - key: P04
   title: "Latent-Variable Classifiers Based on Total Correlation for Dynamic Environments"

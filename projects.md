@@ -46,11 +46,9 @@ under [Research]({{ '/research/' | relative_url }}) and
     for mild cognitive impairment (MCI) screening, and led its integration into
     an interactive assessment system for field deployment. In 2026 the model was
     transferred to two companies under two technology-transfer agreements, to
-    which I contributed as the model's developer. This was a field
-    deployment; I do not describe it here as a commercial service or as a
-    clinical validation of the model. I took part as a member of the project
-    team, and this page describes my own part of the work rather than the
-    project as a whole.
+    which I contributed as the model's developer. The deployment was a field
+    deployment rather than a commercial service or a clinical validation, and
+    this entry describes my part of a team project.
   </p>
   <div class="card-outputs">
     <strong>Related</strong>
