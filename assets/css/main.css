@@ -307,7 +307,8 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
 }
 .row:last-child { border-bottom: 0; }
 .row-when {
-  flex: 0 0 8.5rem;
+  flex: 0 0 9.75rem;          /* wide enough for "Mar 2012 – Feb 2019" on one line */
+  white-space: nowrap;
   color: var(--text-dim);
   font-size: .88rem;
   font-variant-numeric: tabular-nums;
