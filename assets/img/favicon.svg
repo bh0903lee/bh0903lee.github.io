@@ -1,5 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Neutral network motif: four nodes joined by edges, in the site accent colour. -->
   <rect width="64" height="64" rx="12" fill="#1f5f8b"/>
-  <text x="32" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="30"
-        font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central">BL</text>
+  <g stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" fill="none">
+    <line x1="19" y1="22" x2="45" y2="18"/>
+    <line x1="19" y1="22" x2="24" y2="46"/>
+    <line x1="45" y1="18" x2="40" y2="40"/>
+    <line x1="24" y1="46" x2="40" y2="40"/>
+    <line x1="19" y1="22" x2="40" y2="40"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="19" cy="22" r="5.5"/>
+    <circle cx="45" cy="18" r="5.5"/>
+    <circle cx="24" cy="46" r="5.5"/>
+    <circle cx="40" cy="40" r="5.5"/>
+  </g>
 </svg>
