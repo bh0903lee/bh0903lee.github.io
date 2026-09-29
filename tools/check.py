@@ -12,7 +12,7 @@ SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 errors, warnings = [], []
 
 # Markdown files that document the repo rather than being pages of the site.
-REPO_DOCS = {"README.md", "DEPLOY.md"}
+REPO_DOCS = {"README.md", "DEPLOY.md", "WORKFLOW.md"}
 
 
 class StrictLoader(yaml.SafeLoader):

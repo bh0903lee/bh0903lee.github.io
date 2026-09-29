@@ -16,6 +16,8 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
 <ul class="toc" aria-label="Sections">
   <li><a href="#appointments">Appointments</a></li>
   <li><a href="#education">Education</a></li>
+  <li><a href="#publications">Publications</a></li>
+  <li><a href="#projects">Projects</a></li>
   <li><a href="#technology-transfer">Technology transfer and deployment</a></li>
   <li><a href="#patents">Patents</a></li>
   <li><a href="#presentations">Presentations</a></li>
@@ -69,6 +71,34 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
     </div>
   </div>
 </div>
+
+## Publications
+
+{% assign pubs_first = site.data.publications | where_exp: "p", "p.role contains 'First'" %}
+{% assign pubs_corr = site.data.publications | where_exp: "p", "p.role contains 'corresponding'" %}
+{{ site.data.publications | size }} peer-reviewed publications (2018 – 2025),
+{{ pubs_first | size }} as first author, {{ pubs_corr | size }} of them also as
+corresponding author. Selected:
+
+{% include research-papers.html keys="P01,P02,P03" %}
+
+[Full list with summaries and key results →]({{ '/publications/' | relative_url }})
+
+## Projects
+
+<div class="rows">
+  {% for pr in site.data.projects %}
+  <div class="row">
+    <div class="row-when">{{ pr.period }}</div>
+    <div class="row-what">
+      <p><a href="{{ '/projects/' | relative_url }}">{{ pr.name }}</a></p>
+      <p class="sub">{{ pr.org }} &middot; {{ pr.role }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+[Descriptions, roles and outputs of each project →]({{ '/projects/' | relative_url }})
 
 ## Technology transfer and deployment {#technology-transfer}
 
