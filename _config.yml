@@ -4,10 +4,11 @@
 title: Byounghwa Lee
 tagline: Senior Researcher, ETRI
 description: >-
-  Byounghwa Lee is a Senior Researcher at ETRI. His research spans scientific
-  representation learning, multimodal cognitive assessment, temporal point
-  processes, and complex networks. His current work focuses on science-specialized
-  encoders and tokenizers, with applications to drug discovery.
+  Byounghwa Lee is a Senior Researcher at ETRI working on machine learning for
+  scientific, clinical and industrial data. His research spans AI for science
+  and complex systems, graph learning and constrained generation, event-sequence
+  learning, and multimodal cognitive assessment. His current work develops
+  science-specialized encoders and tokenizers, with applications to drug discovery.
 url: "https://bh0903lee.github.io"
 baseurl: ""
 lang: en
@@ -79,3 +80,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - tools

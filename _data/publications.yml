@@ -22,6 +22,12 @@
     Builds an image-sentence bipartite graph with a vision-language model and
     fuses the resulting GCN representation with text and speech encoders
     through co-attention, then analyses each modality's contribution.
+  finding: >-
+    On the ADReSSo benchmark, fusing the graph with text and audio through
+    co-attention improved mean accuracy over the graph alone; most of the
+    gain came from co-attention across modalities, and adding audio was not
+    beneficial in every configuration. Results are for an English
+    picture-description benchmark, not a clinical validation.
 
 - key: P02
   title: "Alzheimer's disease recognition using graph neural network by leveraging image-text similarity from vision language model"
@@ -40,6 +46,11 @@
     Represents picture regions and spoken sentences in a shared vision-language
     space and classifies participants from the similarity-weighted bipartite
     graph, with ablations on the relational structure.
+  finding: >-
+    On the ADReSSo benchmark, the graph built from image-text similarity
+    supported Alzheimer's disease classification on its own, and removing
+    the image-text relations lowered mean accuracy, indicating that the
+    relational structure itself carries diagnostic signal.
 
 - key: P03
   title: "Burst and Memory-aware Transformer: capturing temporal heterogeneity"
@@ -58,6 +69,11 @@
     Embeds burstiness and memory statistics into a Transformer temporal point
     process and tests where explicit temporal heterogeneity helps next-event
     time prediction.
+  finding: >-
+    Burst and memory statistics improved next-event time prediction mainly
+    where temporal heterogeneity was strong; against a matched ablation the
+    gain held on all but one of the real-world datasets, so the paper does
+    not claim a uniform advantage.
 
 - key: P04
   title: "Latent-Variable Classifiers Based on Total Correlation for Dynamic Environments"
@@ -153,6 +169,11 @@
     Proposes a hierarchical generative model in which one mechanism accounts
     for the inter-event time distribution, the autocorrelation and the burst
     size distribution at once.
+  finding: >-
+    The relation between the inter-event time exponent and the
+    autocorrelation exponent (alpha + gamma = 2) still holds when successive
+    intervals are correlated, and burst sizes follow a stretched-exponential
+    rather than a power-law distribution.
 
 - key: P09
   title: "Analysis on the urban street network of Korea: Connections between topology and meta-information"
@@ -169,3 +190,7 @@
     Analyses the street networks of 22 Korean cities through centrality
     measures, planning regularity and population-road length scaling, and
     relates the structural groups to urban meta-information.
+  finding: >-
+    Cities grouped by the inequality of their centrality measures shared
+    demographic and planning characteristics, and population-road-length
+    scaling differed between urban and urban-rural cities.

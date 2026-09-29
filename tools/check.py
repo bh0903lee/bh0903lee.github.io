@@ -14,6 +14,24 @@ errors, warnings = [], []
 # Markdown files that document the repo rather than being pages of the site.
 REPO_DOCS = {"README.md", "DEPLOY.md"}
 
+
+class StrictLoader(yaml.SafeLoader):
+    """SafeLoader that rejects duplicate keys instead of silently keeping the last one."""
+
+    def construct_mapping(self, node, deep=False):
+        seen = set()
+        for k_node, _ in node.value:
+            k = self.construct_object(k_node, deep=deep)
+            if k in seen:
+                raise yaml.YAMLError(
+                    f"duplicate key {k!r} at line {k_node.start_mark.line + 1}")
+            seen.add(k)
+        return super().construct_mapping(node, deep=deep)
+
+
+def load_yaml(stream):
+    return yaml.load(stream, Loader=StrictLoader)
+
 BLOCK_TAGS = {"if", "unless", "for", "case", "capture", "raw", "comment", "tablerow"}
 MID_TAGS = {"else", "elsif", "when", "break", "continue"}
 
@@ -28,7 +46,7 @@ def split_front_matter(text, path):
     fm_raw = text[3:end]
     body = text[end + 4:]
     try:
-        fm = yaml.safe_load(fm_raw) or {}
+        fm = load_yaml(fm_raw) or {}
     except yaml.YAMLError as e:
         errors.append(f"{path}: invalid front-matter YAML -> {e}")
         fm = {}
@@ -72,7 +90,7 @@ def rel(p):
 # --- config -----------------------------------------------------------------
 cfg_path = os.path.join(SITE, "_config.yml")
 try:
-    cfg = yaml.safe_load(open(cfg_path, encoding="utf-8"))
+    cfg = load_yaml(open(cfg_path, encoding="utf-8"))
     print("OK  _config.yml parses")
 except yaml.YAMLError as e:
     errors.append(f"_config.yml: {e}")
@@ -82,7 +100,7 @@ except yaml.YAMLError as e:
 data = {}
 for f in sorted(glob.glob(os.path.join(SITE, "_data", "*.yml"))):
     try:
-        data[os.path.basename(f)[:-4]] = yaml.safe_load(open(f, encoding="utf-8"))
+        data[os.path.basename(f)[:-4]] = load_yaml(open(f, encoding="utf-8"))
         print(f"OK  _data/{os.path.basename(f)} parses")
     except yaml.YAMLError as e:
         errors.append(f"_data/{os.path.basename(f)}: {e}")

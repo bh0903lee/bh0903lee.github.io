@@ -6,7 +6,11 @@
     {%- if include.pub.role %} <span class="tag">{{ include.pub.role }}</span>{% endif %}
   </p>
   {%- if include.pub.summary %}<p class="pub-summary">{{ include.pub.summary }}</p>{% endif %}
-  {%- if include.pub.doi %}
-  <p class="pub-links"><a href="https://doi.org/{{ include.pub.doi }}" target="_blank" rel="noopener">doi:{{ include.pub.doi }}</a></p>
+  {%- if include.pub.finding %}<p class="pub-summary finding"><strong>Key result.</strong> {{ include.pub.finding }}</p>{% endif %}
+  {%- if include.pub.doi or include.pub.links %}
+  <p class="pub-links">
+    {%- if include.pub.doi %}<a href="https://doi.org/{{ include.pub.doi }}" target="_blank" rel="noopener">doi:{{ include.pub.doi }}</a>{% endif %}
+    {%- for l in include.pub.links %} &middot; <a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.name }}</a>{% endfor %}
+  </p>
   {%- endif %}
 </li>

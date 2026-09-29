@@ -13,6 +13,18 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
   {% endfor %}
 </ul>
 
+<ul class="toc" aria-label="Sections">
+  <li><a href="#appointments">Appointments</a></li>
+  <li><a href="#education">Education</a></li>
+  <li><a href="#technology-transfer">Technology transfer and deployment</a></li>
+  <li><a href="#patents">Patents</a></li>
+  <li><a href="#presentations">Presentations</a></li>
+  <li><a href="#awards">Awards</a></li>
+  <li><a href="#teaching">Teaching</a></li>
+  <li><a href="#selected-peer-review">Peer review</a></li>
+  <li><a href="#other-activities">Other activities</a></li>
+</ul>
+
 ## Appointments
 
 <div class="rows">
@@ -54,6 +66,26 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
     <div class="row-what">
       <p><strong>Incheon Science High School</strong></p>
       <p class="sub">Graduated early after two years</p>
+    </div>
+  </div>
+</div>
+
+## Technology transfer and deployment {#technology-transfer}
+
+<div class="rows">
+  <div class="row">
+    <div class="row-when">2026</div>
+    <div class="row-what">
+      <p><strong>Korean speech-based classification model for mild cognitive impairment (MCI) screening</strong>, ETRI</p>
+      <p class="sub">Transferred to two companies under two technology-transfer agreements. Primary developer of the classification model and lead contributor to its field deployment (2024 – 2026); contributed to the transfer.</p>
+      <p class="sub"><a href="{{ '/projects/#technology-transfer' | relative_url }}">Details under Projects</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="row-when">2026</div>
+    <div class="row-what">
+      <p><strong>Digital-human cognitive assessment system</strong>, ETRI</p>
+      <p class="sub">Developed the user interface, real-time voice and session handling and server integration for the interactive assessment system; managed system operation during field deployment.</p>
     </div>
   </div>
 </div>
@@ -140,6 +172,11 @@ Status as of September 2026. Within each section, entries are ordered by filing 
   </div>
   {% endfor %}
 </div>
+
+Courses I am prepared to teach, which I have not yet taught as instructor:
+machine learning, deep learning and representation learning, graph and
+network data analysis, and AI for science (representation and validation of
+scientific data).
 
 ## Selected peer review
 

@@ -1,5 +1,9 @@
 # Research areas and industrial applications, described through personal
 # contributions rather than formal program titles or internal identifiers.
+#
+#   outputs: public results that came out of the project. Each entry has
+#            `text` and an optional site-relative `url` (passed through
+#            relative_url in projects.md).
 
 - name: Scientific representation learning
   org: ETRI
@@ -11,9 +15,10 @@
     Science-specific encoders and tokenizers are the focus of my current work,
     with applications to drug discovery. I build model inputs, combine
     sequence representations with 3D interaction features for protein–ligand
-    binding-affinity prediction, and evaluate models under similarity-controlled
-    data splits. Checks on measurement types and units keep the data and
-    evaluation conditions consistent.
+    binding-affinity prediction, and evaluate how well the models generalize
+    beyond the proteins and molecules they were trained on.
+  outputs:
+    - text: Ongoing work; no public outputs yet.
 
 - name: Speech and multimodal learning for cognitive assessment
   org: ETRI
@@ -23,9 +28,23 @@
   description: >-
     This work combined research on Alzheimer's disease classification from
     picture-description speech with applied development for mild cognitive
-    impairment assessment. My contributions included graph-based and multimodal
-    methods, a Korean speech-based classification model, and model integration
-    for an interactive cognitive assessment system.
+    impairment (MCI) screening. I developed the graph-based and multimodal
+    methods and was the primary developer of the Korean speech-based MCI
+    classification model. I also integrated the model into an interactive
+    cognitive assessment system built around a digital human, developing its
+    user interface, real-time voice and session handling and server
+    integration, and managing system operation.
+  outputs:
+    - text: "Two first- and corresponding-author papers in Scientific Reports (2025)"
+      url: /publications/#p01
+    - text: "Granted Korean patent on vision-language and graph-based cognitive assessment (KR 10-2968743, first inventor); U.S. application published"
+      url: /cv/#patent-t04
+    - text: "Korean patent application on multimodal foundation models for neurological disorders (2026)"
+      url: /cv/#patent-t05
+    - text: "Korean speech-based MCI model: field deployment and transfer to two companies (2026)"
+      url: /projects/#technology-transfer
+    - text: "IEEE ICASSP 2025 Show & Tell demonstration and DementiaBank Korean Kang Corpus (contributor)"
+      url: /publications/#demonstrations-and-other-contributions
 
 - name: Event-sequence learning and collaborative machine learning
   org: ETRI
@@ -38,6 +57,15 @@
     involved model development and analysis with domain specialists, including
     work on treatment-choice interpretation using clinical and socioeconomic
     data.
+  outputs:
+    - text: "Burst and Memory-aware Transformer (Frontiers in Computational Neuroscience, 2023; first and corresponding author)"
+      url: /publications/#p03
+    - text: "Co-authored papers on treatment-decision modelling, predictive coding and feature-incremental classifiers (2022–2023)"
+      url: /publications/#p04
+    - text: "Granted Korean patent on constrained network generation (KR 10-3005917, first inventor)"
+      url: /cv/#patent-t01
+    - text: "Korean and U.S. patent applications on time-series pattern and event-cluster-based prediction (pending)"
+      url: /cv/#patent-t02
 
 - name: Industrial machine learning at Samsung Research
   org: "Samsung Electronics, Samsung Research (Global AI Center)"
@@ -48,6 +76,9 @@
     At Samsung Research, I developed demand and material-order forecasting models,
     evaluating order predictions through inventory simulations that accounted
     for overstock and shortages. In advertising and recommendation, I led
-    development of a self-attention model for
-    multi-touch advertising attribution, and designed a self-supervised
-    architecture for cross-domain recommendation.
+    development of a self-attention model for multi-touch advertising
+    attribution, working with colleagues who handled the data engineering, and
+    designed a self-supervised architecture for cross-domain recommendation.
+  outputs:
+    - text: "Granted Korean patent on advertising engagement prediction (KR 10-2900832, first inventor); PCT application published"
+      url: /cv/#patent-t06

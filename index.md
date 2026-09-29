@@ -27,24 +27,41 @@ Pohang University of Science and Technology (POSTECH), where my doctoral work
 addressed the statistical physics of complex systems. Before joining ETRI in
 2021, I was a Staff Engineer at Samsung Research, Samsung Electronics.
 
-My research combines statistical physics and machine learning to study the
-temporal and relational structure of data, spanning bursty event sequences,
-complex networks, and multimodal cognitive assessment across images, language,
-and speech. A recurring question runs through this work: when does structural
-information improve a model, and when do explicit computation and search remain
-necessary for reliable prediction and generation?
-
-My current work develops science-specialized encoders and tokenizers, with
-applications to drug discovery.
+I work on machine learning for scientific, clinical and industrial data,
+drawing on statistical physics and complex systems. My research asks how the
+structure of a system, the timing of its events, the relations among its parts
+and the modalities in which it is observed, can be turned into models that
+predict, generate and explain. My current work develops science-specialized
+encoders and tokenizers, with applications to drug discovery.
 
 <ul class="keywords">
-  <li>Scientific representation learning</li>
+  <li>AI for science and complex systems</li>
+  <li>Graph learning and constrained generation</li>
+  <li>Event-sequence learning</li>
   <li>Multimodal cognitive assessment</li>
-  <li>Temporal point processes</li>
-  <li>Complex networks</li>
 </ul>
 
 [Read more about my research →]({{ '/research/' | relative_url }})
+
+## Research highlights
+
+<ul class="highlights">
+  <li>
+    <p class="hl-title">Multimodal cognitive assessment from images, language and speech</p>
+    <p>Two first- and corresponding-author papers in <em>Scientific Reports</em> (2025) on Alzheimer's disease recognition from picture-description speech, combining graph models of image–sentence relations with text and audio. The method is covered by a granted Korean patent.</p>
+    <p class="hl-links"><a href="{{ '/research/#cognitive-assessment' | relative_url }}">Research</a> &middot; <a href="{{ '/publications/#p01' | relative_url }}">Publications</a> &middot; <a href="{{ '/cv/#patent-t04' | relative_url }}">Patent</a></p>
+  </li>
+  <li>
+    <p class="hl-title">Korean speech-based screening model for mild cognitive impairment</p>
+    <p>Primary developer of the classification model and lead contributor to its field deployment; the model was transferred to two companies under two technology-transfer agreements in 2026.</p>
+    <p class="hl-links"><a href="{{ '/projects/#technology-transfer' | relative_url }}">Projects</a> &middot; <a href="{{ '/cv/#technology-transfer' | relative_url }}">CV</a></p>
+  </li>
+  <li>
+    <p class="hl-title">From bursty dynamics to neural event-sequence models</p>
+    <p>Physics-based generative models of bursty dynamics (<em>Physical Review E</em>, 2018 and 2019) led to the Burst and Memory-aware Transformer (2023), which tests when explicit temporal structure improves event-time prediction.</p>
+    <p class="hl-links"><a href="{{ '/research/#bursty-dynamics' | relative_url }}">Research</a> &middot; <a href="{{ '/publications/#p03' | relative_url }}">Publications</a></p>
+  </li>
+</ul>
 
 ## Selected publications
 

@@ -178,6 +178,28 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
   color: var(--text-soft);
 }
 
+/* Home: research highlights */
+.highlights { list-style: none; padding: 0; margin: 0 0 1rem; }
+.highlights li {
+  padding: .7rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.highlights li:last-child { border-bottom: 0; }
+.highlights p { margin: 0; }
+.highlights .hl-title { font-weight: 600; }
+.highlights .hl-links { font-size: .86rem; color: var(--text-soft); margin-top: .15rem; }
+
+/* Key result lines (Research, Publications) */
+.finding { margin: 0 0 .45rem; font-size: .92rem; }
+.finding strong { color: var(--text-soft); font-weight: 600; }
+.theme .finding { margin-bottom: .7rem; }
+.theme .basis { font-size: .9rem; color: var(--text-soft); margin-bottom: .6rem; }
+
+/* CV table of contents */
+.toc { display: flex; flex-wrap: wrap; gap: .35rem .9rem; padding: 0; margin: 1.2rem 0 0; list-style: none; font-size: .9rem; }
+.toc a { color: var(--text-soft); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.toc a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
 /* News */
 .news { list-style: none; padding: 0; margin: 0; }
 .news li {
@@ -242,6 +264,10 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
 .card-role { margin: 0 0 .5rem; font-size: .92rem; color: var(--text-soft); }
 .card p:last-child { margin-bottom: 0; }
 .card-links { font-size: .86rem; }
+.card-outputs { margin: .35rem 0 0; font-size: .9rem; }
+.card-outputs strong { color: var(--text-soft); font-weight: 600; }
+.card-outputs ul { margin: .15rem 0 0; padding-left: 1.2rem; }
+.card-outputs li { margin-bottom: .15rem; }
 
 /* Compact families with connected KR/US records nested below each heading. */
 .patent-group-title { margin: 1.5rem 0 .25rem; color: var(--text-soft); }
