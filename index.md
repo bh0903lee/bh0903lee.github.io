@@ -48,18 +48,18 @@ encoders and tokenizers, with applications to drug discovery.
 <ul class="highlights">
   <li>
     <p class="hl-title">Multimodal cognitive assessment from images, language and speech</p>
-    <p>Two first- and corresponding-author papers in <em>Scientific Reports</em> (2025) on Alzheimer's disease recognition from picture-description speech, combining graph models of image–sentence relations with text and audio. The method is covered by a granted Korean patent.</p>
-    <p class="hl-links"><a href="{{ '/research/#cognitive-assessment' | relative_url }}">Research</a> &middot; <a href="{{ '/publications/#p01' | relative_url }}">Publications</a> &middot; <a href="{{ '/cv/#patent-t04' | relative_url }}">Patent</a></p>
-  </li>
-  <li>
-    <p class="hl-title">Korean speech-based screening model for mild cognitive impairment</p>
-    <p>Primary developer of the classification model and lead contributor to its field deployment; the model was transferred to two companies under two technology-transfer agreements in 2026.</p>
-    <p class="hl-links"><a href="{{ '/projects/#technology-transfer' | relative_url }}">Projects</a> &middot; <a href="{{ '/cv/#technology-transfer' | relative_url }}">CV</a></p>
+    <p>Two first- and corresponding-author papers in <em>Scientific Reports</em> (2025) on Alzheimer's disease recognition from picture-description speech, combining graph models of image–sentence relations with text and audio. The method is covered by a granted Korean patent. The same line of work led to a Korean speech-based MCI screening model, which I developed as primary developer and which was deployed in the field and transferred to two companies in 2026.</p>
+    <p class="hl-links"><a href="{{ '/research/#cognitive-assessment' | relative_url }}">Research</a> &middot; <a href="{{ '/publications/#p01' | relative_url }}">Publications</a> &middot; <a href="{{ '/cv/#patent-t04' | relative_url }}">Patent</a> &middot; <a href="{{ '/projects/#technology-transfer' | relative_url }}">Technology transfer</a></p>
   </li>
   <li>
     <p class="hl-title">From bursty dynamics to neural event-sequence models</p>
     <p>Physics-based generative models of bursty dynamics (<em>Physical Review E</em>, 2018 and 2019) led to the Burst and Memory-aware Transformer (2023), which tests when explicit temporal structure improves event-time prediction.</p>
     <p class="hl-links"><a href="{{ '/research/#bursty-dynamics' | relative_url }}">Research</a> &middot; <a href="{{ '/publications/#p03' | relative_url }}">Publications</a></p>
+  </li>
+  <li>
+    <p class="hl-title">From street networks to graph generation under constraints</p>
+    <p>Complex-network analysis of the street networks of 22 Korean cities (<em>Physica A</em>, 2018) led to a granted Korean patent on generating networks under complex-network constraints, and to ongoing work on generating and editing graphs under several structural constraints at once.</p>
+    <p class="hl-links"><a href="{{ '/research/#complex-networks' | relative_url }}">Research</a> &middot; <a href="{{ '/publications/#p09' | relative_url }}">Publications</a> &middot; <a href="{{ '/cv/#patent-t01' | relative_url }}">Patent</a></p>
   </li>
 </ul>
 
