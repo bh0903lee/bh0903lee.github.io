@@ -24,6 +24,19 @@ that predict, generate and explain. The work spans four connected areas:
   speech for cognitive assessment, and learning from limited or imbalanced
   data.
 
+<figure class="figure">
+  <a href="{{ '/assets/img/research-overview.svg' | relative_url }}" target="_blank" rel="noopener" title="Open full-size figure">
+    <img src="{{ '/assets/img/research-overview.svg' | relative_url }}" width="1280" height="716" alt="Overview of research threads: healthcare AI, bursty dynamics and complex networks lead to multimodal cognitive assessment, event-sequence learning and constrained graph generation, and converge on AI for science.">
+  </a>
+  <figcaption>
+    How the threads connect. Healthcare AI, bursty dynamics and complex
+    networks lead to multimodal cognitive assessment, event-sequence learning
+    and constrained graph generation, and converge on representation learning
+    for scientific data. Colours mark where the work was done; dashed boxes
+    are ongoing. Click to open at full size.
+  </figcaption>
+</figure>
+
 ## Current work
 
 <div class="theme" id="current-drug-discovery">

@@ -253,6 +253,17 @@ main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
   white-space: nowrap;
 }
 
+/* Figures */
+.figure {
+  /* Let the figure run wider than the text column, centred, but never past the viewport gutters. */
+  width: min(100vw - 2 * var(--gutter), 62rem);
+  margin: 1.4rem 0 1.8rem 50%;
+  transform: translateX(-50%);
+}
+.figure a { display: block; }
+.figure img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 6px; background: #fff; }
+.figure figcaption { margin-top: .55rem; font-size: .86rem; line-height: 1.5; color: var(--text-soft); }
+
 /* Project cards */
 .card {
   padding: 1rem 0 1.1rem;
