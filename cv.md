@@ -88,6 +88,13 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
       <p class="sub">Developed the user interface, real-time voice and session handling and server integration for the interactive assessment system; managed system operation during field deployment.</p>
     </div>
   </div>
+  <div class="row">
+    <div class="row-when">2025</div>
+    <div class="row-what">
+      <p><strong>Tablet app for MCI screening from speech</strong>, ETRI</p>
+      <p class="sub">Developed the speech-based MCI prediction engine behind the app and ran its field deployment. The app's user interface was developed separately.</p>
+    </div>
+  </div>
 </div>
 
 ## Patents
