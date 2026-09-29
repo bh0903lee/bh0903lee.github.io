@@ -14,6 +14,8 @@
       .s { fill:#52606D; font-size:13px; }
       .h { fill:#52606D; font-size:13px; font-weight:600; letter-spacing:.08em; }
       .arrow { stroke:#8A94A6; stroke-width:1.5; fill:none; marker-end:url(#arr); }
+      .found { stroke-dasharray:5 4; }
+      .nohead { marker-end:none; }
     </style>
   </defs>
   <rect width="1280" height="716" fill="#ffffff"/>
@@ -89,15 +91,18 @@
   <text class="s" x="724" y="614">Ongoing · manuscript under review</text>
   <!-- convergence -->
   <rect class="conv" x="1000" y="90" width="240" height="556" rx="10"/>
+  <text class="s" x="1120" y="284" text-anchor="middle">Methods and perspective</text>
+  <text class="s" x="1120" y="302" text-anchor="middle">carried into</text>
   <text class="b" x="1120" y="328" text-anchor="middle">AI for science</text>
   <text class="t" x="1120" y="352" text-anchor="middle">Science-specialized encoders</text>
   <text class="t" x="1120" y="370" text-anchor="middle">and tokenizers</text>
   <text class="t" x="1120" y="394" text-anchor="middle">Protein–ligand binding affinity</text>
   <text class="t" x="1120" y="412" text-anchor="middle">as the first application</text>
   <text class="s" x="1120" y="436" text-anchor="middle">ETRI, 2026–</text>
-  <path class="arrow" d="M958,150 C980,150 986,368 996,368"/>
-  <path class="arrow" d="M958,310 C980,310 986,368 996,368"/>
-  <path class="arrow" d="M958,586 C980,586 986,368 996,368"/>
+  <path class="arrow found nohead" d="M958,150 C972,150 970,368 981,368"/>
+  <path class="arrow found nohead" d="M958,310 C972,310 970,368 981,368"/>
+  <path class="arrow found nohead" d="M958,586 C972,586 970,368 981,368"/>
+  <path class="arrow" d="M981,368 L996,368"/>
   <!-- legend -->
   <rect class="postech" x="40" y="686" width="26" height="16" rx="4"/><text class="s" x="74" y="699">POSTECH, Ph.D. (2012–2019)</text>
   <rect class="samsung" x="270" y="686" width="26" height="16" rx="4"/><text class="s" x="304" y="699">Samsung Research (2019–2021)</text>
