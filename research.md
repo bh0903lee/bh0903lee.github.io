@@ -113,13 +113,14 @@ that predict, generate and explain. The work spans four connected areas:
     relations lowered performance, so the relational structure itself carries
     diagnostic signal. Combining the graph with text and audio through
     co-attention improved mean accuracy further, with most of the gain coming
-    from co-attention rather than from adding audio. In the five-disorder
+    from co-attention rather than from adding audio. These are results on an
+    English picture-description benchmark, not a clinical validation. In the
+    five-disorder
     model, cross-modal attention and class-balanced sampling accounted for most
     of the gain, the learned representation separated mild cognitive
     impairment from healthy speech that looked nearly identical in raw
     features, and paralinguistic cues were among the top discriminators.
-    Recognising a disorder absent from training remained difficult. These are
-    results on public English speech corpora, not a clinical validation.
+    Recognising a disorder absent from training remained difficult.
   </p>
   <p class="basis">
     First and corresponding author on all three papers. The graph method is

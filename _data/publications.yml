@@ -30,9 +30,7 @@
     sampling. The learned representation separated mild cognitive impairment
     from controls even though their raw speech features were nearly
     identical, and paralinguistic cues were among the top discriminators.
-    Transfer to a disorder absent from training remained difficult, and the
-    results describe a research prototype on public corpora, not a validated
-    screening tool.
+    Transfer to a disorder absent from training remained difficult.
 
 - key: P01
   title: "Multimodal Alzheimer's disease recognition from image, text and audio"
