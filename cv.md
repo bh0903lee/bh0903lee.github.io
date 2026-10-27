@@ -76,11 +76,11 @@ description: Curriculum vitae of Byounghwa Lee - education, appointments, teachi
 
 {% assign pubs_first = site.data.publications | where_exp: "p", "p.role contains 'First'" %}
 {% assign pubs_corr = site.data.publications | where_exp: "p", "p.role contains 'corresponding'" %}
-{{ site.data.publications | size }} peer-reviewed publications (2018 – 2025),
+{{ site.data.publications | size }} peer-reviewed publications (2018 – 2026),
 {{ pubs_first | size }} as first author, {{ pubs_corr | size }} of them also as
 corresponding author. Selected:
 
-{% include research-papers.html keys="P01,P02,P03" %}
+{% include research-papers.html keys="P10,P01,P02,P03" %}
 
 [Full list with summaries and key results →]({{ '/publications/' | relative_url }})
 

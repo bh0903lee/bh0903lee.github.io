@@ -97,23 +97,41 @@ that predict, generate and explain. The work spans four connected areas:
     visual, linguistic and acoustic cues contribute to Alzheimer's disease
     classification on the ADReSSo benchmark.
   </p>
+  <p>
+    I then widened the question from one disease to several. Speech corpora
+    for language disorders are usually collected and modelled one disorder at
+    a time. I trained a single model jointly on five TalkBank corpora to
+    distinguish aphasia, Alzheimer's disease, mild cognitive impairment,
+    traumatic brain injury and right hemisphere damage from healthy speakers,
+    fusing text, speech and demographic inputs through Q-Former cross-attention
+    and sharing the representation with auxiliary heads for aphasia severity,
+    similar-patient retrieval and longitudinal progression.
+  </p>
   <p class="finding">
     <strong>Key finding.</strong> The image–sentence graph supported
     Alzheimer's disease classification on its own, and removing the image–text
     relations lowered performance, so the relational structure itself carries
     diagnostic signal. Combining the graph with text and audio through
     co-attention improved mean accuracy further, with most of the gain coming
-    from co-attention rather than from adding audio. These are results on an
-    English picture-description benchmark, not a clinical validation.
+    from co-attention rather than from adding audio. In the five-disorder
+    model, cross-modal attention and class-balanced sampling accounted for most
+    of the gain, the learned representation separated mild cognitive
+    impairment from healthy speech that looked nearly identical in raw
+    features, and paralinguistic cues were among the top discriminators.
+    Recognising a disorder absent from training remained difficult. These are
+    results on public English speech corpora, not a clinical validation.
   </p>
   <p class="basis">
-    First and corresponding author on both papers. The method is covered by a
-    granted Korean patent
+    First and corresponding author on all three papers. The graph method is
+    covered by a granted Korean patent
     (<a href="{{ '/cv/#patent-t04' | relative_url }}">KR 10-2968743</a>, first
-    inventor) and led to the Korean speech-based MCI model described under
+    inventor), the multi-disorder model by a pending Korean application
+    (<a href="{{ '/cv/#patent-t05' | relative_url }}">KR 10-2026-0021243</a>,
+    first inventor), and the work led to the Korean speech-based MCI model
+    described under
     <a href="{{ '/projects/#technology-transfer' | relative_url }}">Projects</a>.
   </p>
-  {% include research-papers.html keys="P01,P02" %}
+  {% include research-papers.html keys="P10,P01,P02" %}
 </div>
 
 <div class="theme" id="bursty-dynamics">

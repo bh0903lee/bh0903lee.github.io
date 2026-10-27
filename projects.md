@@ -53,7 +53,7 @@ under [Research]({{ '/research/' | relative_url }}) and
   <div class="card-outputs">
     <strong>Related</strong>
     <ul>
-      <li><a href="{{ '/publications/#p01' | relative_url }}">Research papers on multimodal cognitive assessment (Scientific Reports, 2025)</a></li>
+      <li><a href="{{ '/publications/#p01' | relative_url }}">Research papers on multimodal cognitive assessment (Scientific Reports, 2025 – 2026)</a></li>
       <li><a href="{{ '/publications/#demonstrations-and-other-contributions' | relative_url }}">IEEE ICASSP 2025 Show &amp; Tell demonstration of the screening system</a></li>
       <li><a href="{{ '/cv/#technology-transfer' | relative_url }}">Technology transfer entry on the CV</a></li>
     </ul>

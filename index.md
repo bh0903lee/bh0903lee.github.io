@@ -2,7 +2,7 @@
 layout: default
 title: Home
 permalink: /
-featured_publications: [P01, P02, P03]
+featured_publications: [P10, P01, P02, P03]
 ---
 
 <div class="hero">
@@ -48,8 +48,8 @@ encoders and tokenizers, with applications to drug discovery.
 <ul class="highlights">
   <li>
     <p class="hl-title">Multimodal cognitive assessment from images, language and speech</p>
-    <p>Two first- and corresponding-author papers in <em>Scientific Reports</em> (2025) on Alzheimer's disease recognition from picture-description speech, combining graph models of image–sentence relations with text and audio. The method is covered by a granted Korean patent. The same line of work led to a Korean speech-based MCI screening model, which I developed as primary developer and which was deployed in the field and transferred to two companies in 2026.</p>
-    <p class="hl-links"><a href="{{ '/research/#cognitive-assessment' | relative_url }}">Research</a> &middot; <a href="{{ '/publications/#p01' | relative_url }}">Publications</a> &middot; <a href="{{ '/cv/#patent-t04' | relative_url }}">Patent</a> &middot; <a href="{{ '/projects/#technology-transfer' | relative_url }}">Technology transfer</a></p>
+    <p>Two first- and corresponding-author papers in <em>Scientific Reports</em> (2025) on Alzheimer's disease recognition from picture-description speech, combining graph models of image–sentence relations with text and audio. The method is covered by a granted Korean patent. A third <em>Scientific Reports</em> paper (2026) extends the work from one disease to five neurological language disorders, with a single model trained across five speech corpora. The same line of work led to a Korean speech-based MCI screening model, which I developed as primary developer and which was deployed in the field and transferred to two companies in 2026.</p>
+    <p class="hl-links"><a href="{{ '/research/#cognitive-assessment' | relative_url }}">Research</a> &middot; <a href="{{ '/publications/#p10' | relative_url }}">Publications</a> &middot; <a href="{{ '/cv/#patent-t04' | relative_url }}">Patent</a> &middot; <a href="{{ '/projects/#technology-transfer' | relative_url }}">Technology transfer</a></p>
   </li>
   <li>
     <p class="hl-title">From bursty dynamics to neural event-sequence models</p>

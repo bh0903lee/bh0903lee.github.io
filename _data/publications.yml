@@ -5,6 +5,35 @@
 #   role:    short description of the author role, shown as a tag
 #   authors: full author list in publication order
 
+- key: P10
+  title: "Simultaneous multi-task assessment of five neurological language disorders via cross-corpus multimodal learning"
+  authors:
+    - Byounghwa Lee
+    - Hwa Jeon Song
+    - Byung Ok Kang
+  venue: Scientific Reports
+  type: journal
+  year: 2026
+  date: 2026-10-19
+  doi: 10.1038/s41598-026-76495-9
+  role: First and corresponding author
+  summary: >-
+    Trains one model jointly on five TalkBank corpora to classify aphasia,
+    Alzheimer's disease, mild cognitive impairment, traumatic brain injury,
+    right hemisphere damage and healthy controls from spontaneous speech,
+    fusing text, acoustic and demographic inputs through Q-Former
+    cross-attention, with auxiliary heads for aphasia severity, similar-patient
+    retrieval and longitudinal progression.
+  finding: >-
+    The unified model outperformed all baselines, and ablations attributed
+    most of the gain to cross-modal attention fusion and class-balanced
+    sampling. The learned representation separated mild cognitive impairment
+    from controls even though their raw speech features were nearly
+    identical, and paralinguistic cues were among the top discriminators.
+    Transfer to a disorder absent from training remained difficult, and the
+    results describe a research prototype on public corpora, not a validated
+    screening tool.
+
 - key: P01
   title: "Multimodal Alzheimer's disease recognition from image, text and audio"
   authors:
